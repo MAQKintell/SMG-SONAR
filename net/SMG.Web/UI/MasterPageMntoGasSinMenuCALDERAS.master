@@ -1,0 +1,223 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageMntoGasSinMenu.master.cs" Inherits="Iberdrola.SMG.UI.MasterPageMntoGasSinMenu" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script src="HTML/Js/ventana-modal.js" type="text/javascript"></script>
+    <script src="HTML/Js/calendar.js" type="text/javascript"></script>
+    <script src="HTML/Js/calendar-setup.js" type="text/javascript"></script>
+    <script src="HTML/Js/utf8calendar-es.js" type="text/javascript"></script>
+    <script src="HTML/Js/formularios.js" type="text/javascript"></script>
+    
+    <script src="HTML/Js/rich_calendar/rich_calendar.js" type="text/javascript"></script>
+    <script src="HTML/Js/rich_calendar/rc_lang_es.js" type="text/javascript"></script>
+    <script src="HTML/Js/rich_calendar/rich_calendar_utils.js" type="text/javascript"></script>
+    <link href="HTML/Js/rich_calendar/rich_calendar.css" type="text/css" rel="stylesheet" />
+    
+    <link href="HTML/Css/formularios.css" type="text/css" rel="stylesheet" />
+    <link href="HTML/Css/masterCalderas.css" type="text/css" rel="stylesheet" />
+    <link href="HTML/Css/tablas.css" type="text/css" rel="stylesheet" />
+   
+    <link href="HTML/Css/ventana-modal.css" type="text/css" rel="stylesheet" />
+    <link href="HTML/Css/calendar-blue.css" type="text/css" rel="stylesheet" /> 
+    
+    <link rel="stylesheet" href="HTML/Css/jquery.jgrowl.css" type="text/css" />
+    <script type="text/javascript" src="HTML/Js/jquery-1.4.2.js"></script>
+    <script type="text/javascript" src="HTML/Js/jquery.ui.all.js"></script>
+    <script type="text/javascript" src="HTML/Js/jquery.jgrowl.js"></script>
+    
+    
+    
+    
+    
+    <!--[if lt IE 7]><LINK href="/HTML/Css/ventan-modal-ie.css" type=text/css rel=stylesheet /><![endif]-->
+
+    <title>IBERDROLA - OPERA SMG </title>
+</head>
+<body id="cuerpo" onunload="javascript:UnLoad();">   
+    <form id="frmMaster" runat="server" autocomplete="off">
+    <div id="divSplashScreen" style="z-index:100000">
+        <table border="0" cellpadding="10" cellspacing="2" width="100%" align="center">
+            <tr>
+                <td align="center">
+                     <img src="HTML/Images/loading.gif" alt="Cargando..."/>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <span class="labelFormularioValor"><asp:Label CssClass="labelFormularioValor" 
+                        ID="lblCargando" runat="server" 
+                       text=" Cargando... " meta:resourcekey="lblCargandoResource1"></asp:Label></span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript">
+        function UnLoad()
+        { 
+//            Alert(event.clientX);
+//            Alert(window.event.clientX);
+//            Alert(event.clientY);
+              //Alert('MasterPageMntoGasSinMenu.master');
+              if (event.clientY < 0)
+              {
+                 // Alert("Cerrando Web Explorer");
+              }
+            
+//            var docElWidth = document.documentElement.clientWidth;
+//            var docBodWidth = document.body.clientWidth;
+//            var realW = 0;
+//            Alert(docElWidth);
+//            Alert(docBodWidth);
+//            
+//            if(docElWidth <= docBodWidth)
+//              realW = docElWidth;
+//            else
+//              realW = docBodWidth;
+//           
+//            Alert(realW);
+//            if (event.clientY < 0 && realW < event.clientX)
+//            {
+//                Alert('000');
+//            }
+        }
+        
+        function MostrarCapaEspera()
+        {
+            var div = document.getElementById("divSplashScreen");
+            div.style.visibility = "visible";
+        }
+        function OcultarCapaEspera()
+        {
+            var div = document.getElementById("divSplashScreen");
+            div.style.visibility = "hidden";
+        }
+        <% 
+            if(Page.IsPostBack)
+            { 
+        %>
+                MostrarCapaEspera();
+        <%
+            }
+        %>
+        
+    </script>        
+    <!-- Cabecera --> 
+    <div id="divCabecera">
+        <asp:ContentPlaceHolder id="ContentPlaceHolderCabecera" runat="server">
+            <div id="cabeceraIzda">
+            </div>
+            <div id="cabeceraCentro">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                            <img src="HTML/Images/logoIberdrola.jpg" alt="logo IBERDROLA"/></td>
+                        <td>
+                        </td>
+                        <td class="textoTituloCabecera" align="center">
+                            <asp:Label CssClass="textoTituloCabecera" ID="lblTitulo" runat="server" 
+                       text=" - OPERA SMG - " meta:resourcekey="lblTituloResource1"></asp:Label>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                        <td align="right">
+                            <asp:Label class="textoUsuarioConectado" ID="lblUsuarioConectado" 
+                                runat="server" Text="Usuario Conectado" 
+                                meta:resourcekey="lblUsuarioConectadoResource1"></asp:Label>
+                        </td>
+                        <td>
+                        </td>
+                        <td align="right">
+                            <asp:LinkButton ID="btnMenu" runat="server" class="desconectar" 
+                                onclick="btnMenu_Click" CausesValidation="False" Text="menu opciones" 
+                                meta:resourcekey="btnMenuResource1"></asp:LinkButton>
+                            <asp:LinkButton ID="btnDesconectar" runat="server" class="desconectar" 
+                                onclick="btnDesconectar_Click" CausesValidation="False" Text="desconectar" 
+                                meta:resourcekey="btnDesconectarResource1"></asp:LinkButton>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="cabeceraDcha">
+            </div>
+        </asp:ContentPlaceHolder>
+    </div>
+    
+    <br />
+     <!-- Menu --> 
+
+    <br />
+     
+    <!-- Contenido --> 
+    
+    <div id="divContenido">       
+        <asp:ContentPlaceHolder id="ContentPlaceHolderContenido" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    
+    <br />   
+    <!-- Pie -->
+    <div id="divPie">
+        <asp:ContentPlaceHolder id="ContentPlaceHolderPie" runat="server">
+            <table cellspacing="0" cellpadding="0" width="110%">
+                <tr>
+                    <td>
+                        <div id="pieIzda"></div>
+                        <div id="pieCentro"></div>
+                        <div id="pieDcha"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!--<div class="copyRight"><asp:Label ID="lblcopyright" runat="server" Text="© Iberdrola S.A. 2009 todos los derechos reservados."></asp:Label></div>-->
+                    </td>
+                </tr>
+            </table>
+        </asp:ContentPlaceHolder>
+    </div>
+    <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </form>
+    <script type="text/javascript">
+        OcultarCapaEspera();
+    </script>
+    <asp:PlaceHolder ID="_PlaceHolderScript" runat="server"></asp:PlaceHolder>
+</body>
+</html>

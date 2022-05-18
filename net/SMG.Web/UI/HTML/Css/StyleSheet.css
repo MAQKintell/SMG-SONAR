@@ -1,0 +1,109 @@
+﻿body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #333333;
+    margin: 0px;
+}
+
+.fullscreenPanel {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.NoStyle {
+    background: none;
+    border: 0;
+    color: black;
+    padding: 0;
+    height: auto;
+}
+
+.NoStyleC {
+    background: none;
+    border: 0;
+    color: black;
+    padding: 0;
+    height: auto;
+    margin: auto;
+}
+
+.Centrado {
+    height: auto;
+    margin: auto;
+}
+
+
+.DMaster {
+    display: table;
+    align-self: center;
+    width: 1200px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.DCell {
+    display: table-cell;
+    vertical-align: middle;
+    border: none;
+    padding: 0px;
+    text-align: left;
+}
+
+.Tab {
+    align-self: center;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 auto;
+    margin-bottom: 7px;
+}
+
+.Cell {
+    vertical-align: middle;
+    border: none;
+    padding: 0px;
+    text-align: left;
+}
+
+.Cell1 {
+    vertical-align: middle;
+    text-align: left;
+    width: 120px;
+    padding: 0px;
+    height: 25px;
+    border: none;
+}
+
+.LitCamposLit {
+    font-size: 9pt;
+}
+
+.LitCampos {
+    font-size: 9pt;
+    color: #599504;
+}
+
+
+a.dxeHyperlink:hover, a.dxeHyperlink:visited:hover {
+    color: #7ea535;
+} 
+
+
+
+/*.ComboBox {
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    color: #303647;
+    /*font-size: 13px;
+    font-weight:400;*/
+}
+
+/*.TextBox {
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    color: #303647;
+}*/*/

@@ -1,0 +1,11 @@
+.ventana-modal-fondo {
+	background-color	: #000000;
+	filter				: alpha(opacity=60);
+    opacity             : 0.60;
+}
+
+.ventana-modal-sombra {
+	background-color	: #000000;
+	filter				: alpha(opacity=60);
+    opacity             : 0.60;
+}

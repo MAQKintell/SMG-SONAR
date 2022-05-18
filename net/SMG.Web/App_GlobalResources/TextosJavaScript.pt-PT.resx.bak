@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ALTA_SOLICITUD" xml:space="preserve">
+    <value>PEDIDO DE ADESÃO</value>
+  </data>
+  <data name="CONTRATO_NO_ENCONTRADO" xml:space="preserve">
+    <value>CONTRATO Não foi encontrada ( Ao carregar os dados dos clientes )</value>
+  </data>
+  <data name="HORARIOProveedor" xml:space="preserve">
+    <value>Cronograma Fornececedor: De segunda a sexta de 8h a 20h. Sábados de 9h a 14h</value>
+  </data>
+  <data name="MODIF_SOLICITUD" xml:space="preserve">
+    <value>MODIF. PEDIDO</value>
+  </data>
+  <data name="NUMERO_DE_INTENTOS_SUPERADOS" xml:space="preserve">
+    <value>Você excedeu o número de tentativas . a janela será fechada.</value>
+  </data>
+  <data name="SELECCIONE_SUBTIPO_SOLICITUD" xml:space="preserve">
+    <value>Seleções subtipo de pedido...</value>
+  </data>
+  <data name="SELECCIONE_TIPO_AVERIA" xml:space="preserve">
+    <value>Selecione um tipo de avaria</value>
+  </data>
+  <data name="SERVICIO_DADO_DE_BAJA" xml:space="preserve">
+    <value>O SERVIÇO FOI CANCELADO</value>
+  </data>
+  <data name="TEXTO_ACEPTACION_DE_PRESUPUESTO" xml:space="preserve">
+    <value>Aceitação de orçamento</value>
+  </data>
+  <data name="TEXTO_ADMINISTRACION" xml:space="preserve">
+    <value>ADMINISTRAÇÃO</value>
+  </data>
+  <data name="TEXTO_ALERTA" xml:space="preserve">
+    <value>ALERTA</value>
+  </data>
+  <data name="TEXTO_ALTA_AVERIA_GAS_CONFORT" xml:space="preserve">
+    <value>VAI INSCREVER UM PEDIDO DE AVARIA DE GÁS CONFORTO. PRETENDE CONTINUAR?</value>
+  </data>
+  <data name="TEXTO_ALTA_AVERIA_GAS_CONFORT_TITULO" xml:space="preserve">
+    <value>ALTA AVARIA DE GÁS CONFORTO CONTRATO:</value>
+  </data>
+  <data name="TEXTO_ALTA_GAS_CONFORT" xml:space="preserve">
+    <value>VAI INSCREVER UM PEDIDO DE GÁS CONFORTO. PRETENDE CONTINUAR?</value>
+  </data>
+  <data name="TEXTO_ATENCION_AVERIA_ABIERTA" xml:space="preserve">
+    <value>ATENÇÃO!!! Tem uma avaria aberta atualmente.</value>
+  </data>
+  <data name="TEXTO_ATENCION_CONTRATO_BAJA" xml:space="preserve">
+    <value>ATENÇÃO!!! CONTRATO CANCELADO. Só tem autorização para operar com pedidos de Visitas ou Avarias incorretas.</value>
+  </data>
+  <data name="TEXTO_ATENCION_CONTRATO_BAJA_POR_RECLAMACION" xml:space="preserve">
+    <value>ATENÇÃO!!! CONTRATO CANCELADO POR RECLAMAÇÃO. Não é permitido realizar pedidos.</value>
+  </data>
+  <data name="TEXTO_ATENCION_SOLICITUD_NO_PUEDE_DERIVARSE" xml:space="preserve">
+    <value>ATENÇÃO!!! ESTE PEDIDO NÃO PODE SER DERIVADO PARA O SATÉLITE AO SER CALDEIRA INMERGAS.</value>
+  </data>
+  <data name="TEXTO_AVERIA" xml:space="preserve">
+    <value>Avaria:</value>
+  </data>
+  <data name="TEXTO_AVERIA_GAS_CONFORT" xml:space="preserve">
+    <value>Avaria de gás conforto</value>
+  </data>
+  <data name="TEXTO_AVERIA_INCORRECTA" xml:space="preserve">
+    <value>Avaria incorreta</value>
+  </data>
+  <data name="TEXTO_AVERIA_INCORRECTA_GAS_CONFORT" xml:space="preserve">
+    <value>Avaria incorreta de gás conforto</value>
+  </data>
+  <data name="TEXTO_AVERIA_MANTENIMIENTO" xml:space="preserve">
+    <value>Avaria manutenção de gás</value>
+  </data>
+  <data name="TEXTO_AVISO" xml:space="preserve">
+    <value>AVISO </value>
+  </data>
+  <data name="TEXTO_AVISO_ABRIR_INSPECCION_GAS" xml:space="preserve">
+    <value>Você já tem uma aplicação cancelada nos últimos 5 anos, essa nova solicitação será cobrada do cliente</value>
+  </data>
+  <data name="TEXTO_BAJA_SERVICIO" xml:space="preserve">
+    <value>Cancelamento do serviço</value>
+  </data>
+  <data name="TEXTO_BUSCAR_USUARIO" xml:space="preserve">
+    <value>Procurar utilizador</value>
+  </data>
+  <data name="TEXTO_CALDERAS" xml:space="preserve">
+    <value>Caldeiras</value>
+  </data>
+  <data name="TEXTO_CANCELADA" xml:space="preserve">
+    <value>Cancelada </value>
+  </data>
+  <data name="TEXTO_CANCELADA_POR_REASIGNACION" xml:space="preserve">
+    <value>Cancelado por reatribuição</value>
+  </data>
+  <data name="TEXTO_CANCELADA_POR_SISTEMA" xml:space="preserve">
+    <value>Sistema: Cancelado pelo sistema</value>
+  </data>
+  <data name="TEXTO_CANCELADO_TRANSFERIDO_A_SAT" xml:space="preserve">
+    <value>Cancelado transferido para SAT</value>
+  </data>
+  <data name="TEXTO_CLIENTE_PREFERENTE_FACEBOOK" xml:space="preserve">
+    <value>Cliente preferente por queija no Facebook:</value>
+  </data>
+  <data name="TEXTO_CLIENTE_PREFERENTE_TWITTER" xml:space="preserve">
+    <value>Cliente preferente por queija no Twitter:</value>
+  </data>
+  <data name="TEXTO_COBERTURA_SERVICIO" xml:space="preserve">
+    <value>COBERTURA SERVIÇO</value>
+  </data>
+  <data name="TEXTO_CODIFICACION_AVERIAS" xml:space="preserve">
+    <value>CODIFICAÇÃO DE AVARIAS</value>
+  </data>
+  <data name="TEXTO_CODIGO_AVERIA_OBLIGATORIO" xml:space="preserve">
+    <value>O código de falha é necessária.</value>
+  </data>
+  <data name="TEXTO_CODIGO_SOLICITUD" xml:space="preserve">
+    <value>código solicitud: PT </value>
+  </data>
+  <data name="TEXTO_CODIGO_VISITA_OBLIGATORIO" xml:space="preserve">
+    <value>O código de avaria é obrigatório.</value>
+  </data>
+  <data name="TEXTO_COMPRUEBE_DATOS_BANCARIOS" xml:space="preserve">
+    <value>Verifique os dados bancários.</value>
+  </data>
+  <data name="TEXTO_COMPRUEBE_DATOS_OBLIGATORIOS" xml:space="preserve">
+    <value>Verifique: A receção do comprovativo, o código de barras da visita, a verificação de faturação do fornecedor, a data de fatura e a caldeira selecionada</value>
+  </data>
+  <data name="TEXTO_COMPRUEBE_FECHA_INTRODUCIDA" xml:space="preserve">
+    <value>Comprove a data introduzida.</value>
+  </data>
+  <data name="TEXTO_COMPRUEBE_IMPORTE_INTRODUCIDO" xml:space="preserve">
+    <value>Comprove o montante introduzido.</value>
+  </data>
+  <data name="TEXTO_COMPRUEBE_NUMERO_SERIE_TERMOSTATO" xml:space="preserve">
+    <value>Verifique o número de série do Termóstato Inteligente.</value>
+  </data>
+  <data name="TEXTO_CONFIRMACION_PASSWORD_NO_VACIA" xml:space="preserve">
+    <value>A confirmação da palavra-chave não pode estar vazia.</value>
+  </data>
+  <data name="TEXTO_CONTRASENHIA_CARACTERES_ALFANUMERICOS" xml:space="preserve">
+    <value>0 caracteres não alfanuméricos.</value>
+  </data>
+  <data name="TEXTO_CONTRASENHIA_CARACTERES_NUMERICOS" xml:space="preserve">
+    <value>A palavra-chave tem de ter pelo menos os seguintes caracteres numéricos:</value>
+  </data>
+  <data name="TEXTO_CONTRASENHIA_DEBE_CUMPLIR" xml:space="preserve">
+    <value>A nova palavra-chave tem de cumprir as seguintes condições:</value>
+  </data>
+  <data name="TEXTO_CONTRASENHIA_DEBE_TENER" xml:space="preserve">
+    <value>A palavra-chave tem de ter pelo menos</value>
+  </data>
+  <data name="TEXTO_CONTRASENHIA_ENTRE_6Y8" xml:space="preserve">
+    <value>Longitude entre 6 e 8 caracteres.</value>
+  </data>
+  <data name="TEXTO_CONTRASENHIA_INCLUIR_MAYUS_MINUS" xml:space="preserve">
+    <value>Incluir pelo menos 1 maiúscula e 1 minúscula.</value>
+  </data>
+  <data name="TEXTO_CONTRASENHIA_MAYUSCULAS" xml:space="preserve">
+    <value>caracteres em maiúsculas e </value>
+  </data>
+  <data name="TEXTO_CONTRASENHIA_MINIMO_2_CARACTERES_NUMERICOS" xml:space="preserve">
+    <value>Incluir pelo menos 2 caracteres numéricos.</value>
+  </data>
+  <data name="TEXTO_CONTRASENHIA_MINUSCULAS" xml:space="preserve">
+    <value>em minúsculas.</value>
+  </data>
+  <data name="TEXTO_CONTRASENHIA_MODIFICADA_CORRECTAMENTE" xml:space="preserve">
+    <value>A palavra-chave foi modificada corretamente.</value>
+  </data>
+  <data name="TEXTO_CONTRASENHIA_NO_ALPHANUMERICO" xml:space="preserve">
+    <value>caracteres não alfanuméricos como máximo.</value>
+  </data>
+  <data name="TEXTO_CONTRASENHIA_NO_PUEDE_ESTAR_VACIA" xml:space="preserve">
+    <value>A palavra-chave não pode estar vazia.</value>
+  </data>
+  <data name="TEXTO_CONTRASENHIA_POCO_SEGURA" xml:space="preserve">
+    <value>Tem uma palavra-chave pouco segura. Para maior segurança estabeleça uma palavra-chave diferente.</value>
+  </data>
+  <data name="TEXTO_CONTRASENHIA_TIENE" xml:space="preserve">
+    <value>A palavra-chave tem</value>
+  </data>
+  <data name="TEXTO_CONTRATO_DADO_DE_BAJA" xml:space="preserve">
+    <value>Contrato cancelado</value>
+  </data>
+  <data name="TEXTO_CONTRATO_MAS_DE_DOS_AVERIAS" xml:space="preserve">
+    <value>CONTRATO SMG AMPLIADO COM MAIS DE DUAS AVARIAS RESOLVIDAS NO ANO. O montante total das seguintes avarias será assumido pelo cliente. Avisar o cliente.</value>
+  </data>
+  <data name="TEXTO_CON_CUOTA" xml:space="preserve">
+    <value> passou a oferta aceite. Com quota de:</value>
+  </data>
+  <data name="TEXTO_CON_PAGO_FRACCIONADO" xml:space="preserve">
+    <value> com pagamento fracionado</value>
+  </data>
+  <data name="TEXTO_DATOS_ARGUMENTARIO" xml:space="preserve">
+    <value>DADOS DO ARGUMENTÁRIO</value>
+  </data>
+  <data name="TEXTO_DATOS_CALDERAS_NO_COMPLETOS" xml:space="preserve">
+    <value>Os dados da caldeira não estão completos, a caldeira não será inserida. Pretende continuar?</value>
+  </data>
+  <data name="TEXTO_DATOS_SOLICITUD" xml:space="preserve">
+    <value>DADOS DO PEDIDO: </value>
+  </data>
+  <data name="TEXTO_DEBE_INIDCAR_PARAMETRO_BUSQUEDA" xml:space="preserve">
+    <value>Deve indicar algum parâmetro de pesquisa...</value>
+  </data>
+  <data name="TEXTO_DEBE_SELECCIONAR_CONTRATO" xml:space="preserve">
+    <value>DEVE SELECIONAR UM CONTRATO</value>
+  </data>
+  <data name="TEXTO_DEBE_SELECCIONAR_ESTADO_SOLICITUD" xml:space="preserve">
+    <value>Deve selecionar um estado de pedido.</value>
+  </data>
+  <data name="TEXTO_DEBE_SELECCIONAR_MOTIVO_CANCELACION" xml:space="preserve">
+    <value>Deve selecionar um motivo do cancelamento.</value>
+  </data>
+  <data name="TEXTO_DEBE_SELECCIONAR_SUBTIPO" xml:space="preserve">
+    <value>Deve selecionar um subtipo de pedido.</value>
+  </data>
+  <data name="TEXTO_DEBE_SELECCIONAR_TECNICO" xml:space="preserve">
+    <value>Deve selecionar um técnico</value>
+  </data>
+  <data name="TEXTO_DEBE_SELECCIONAR_TIPO_VISITA" xml:space="preserve">
+    <value>Deve selecionar um Tipo de Visita</value>
+  </data>
+  <data name="TEXTO_DEL_CONTRATO" xml:space="preserve">
+    <value> do Contrato: </value>
+  </data>
+  <data name="TEXTO_DEMASIADAS_COINCIDENCIAS" xml:space="preserve">
+    <value>DEMASIADAS COINCIDÊNCIAS. LIMITE OS RESULTADOS INFORMANDO SOBRE MAIS FILTROS DA PESQUISA</value>
+  </data>
+  <data name="TEXTO_DESCONECTAR" xml:space="preserve">
+    <value>desligar</value>
+  </data>
+  <data name="TEXTO_DESEA_REALMENTE_DAR_BAJA" xml:space="preserve">
+    <value>PRETENDE REALMENTE CANCELAR O CONTRATO?</value>
+  </data>
+  <data name="TEXTO_DE_SEGUIR_BORRARAN_DATOS_VISITA" xml:space="preserve">
+    <value>Se prosseguir com a alteração serão alterados os dados correspondentes à vista. Deseja continuar?</value>
+  </data>
+  <data name="TEXTO_ELEGIR_ACCION" xml:space="preserve">
+    <value>ESCOLHER AÇÃO</value>
+  </data>
+  <data name="TEXTO_ELIMINAR_USUARIO" xml:space="preserve">
+    <value>Vai eliminar o utilizador. Pretende continuar?</value>
+  </data>
+  <data name="TEXTO_EQUIPAMIENTO" xml:space="preserve">
+    <value>Equipamento</value>
+  </data>
+  <data name="TEXTO_ERROR_AL_OBTENER_DATOS_SOLICITUD_ACTUAL" xml:space="preserve">
+    <value>Erro ao obter dados do pedido atual</value>
+  </data>
+  <data name="TEXTO_ERROR_CARGA_DATOS" xml:space="preserve">
+    <value>Houve um erro no carregamento de dados, verificar os filtros.</value>
+  </data>
+  <data name="TEXTO_ERROR_CARGA_DATOS_2" xml:space="preserve">
+    <value>Houve um erro no carregamento de dados.</value>
+  </data>
+  <data name="TEXTO_ERROR_MOSTRAR_AVISO" xml:space="preserve">
+    <value>Erro ao mostrar o AVISO</value>
+  </data>
+  <data name="TEXTO_ERROR_VISITA_NO_ENCONTRADA" xml:space="preserve">
+    <value>Não encontrou a visita do contrato. Verifique o código introduzido.</value>
+  </data>
+  <data name="TEXTO_ESTA_SEGURO" xml:space="preserve">
+    <value>TEM A CERTEZA? O CONTRATO VAI DEIXAR DE ESTAR OPERACIONAL</value>
+  </data>
+  <data name="TEXTO_EXCEL_DEMASIADAS_FILAS" xml:space="preserve">
+    <value>Não é possível criar o documento Excel com mais registos de</value>
+  </data>
+  <data name="TEXTO_EXCEL_MAS_DE_10000" xml:space="preserve">
+    <value>Não é possível criar o documento Excel com mais de 10000 registos porque iria demorar demasiado tempo.</value>
+  </data>
+  <data name="TEXTO_EXPORTAR_EXCEL" xml:space="preserve">
+    <value>EXPORTAR EXCEL</value>
+  </data>
+  <data name="TEXTO_FALTAN_DATOS_OBLIGATORIOS_CALDERA" xml:space="preserve">
+    <value>Faltam dados obrigatórios da caldeira</value>
+  </data>
+  <data name="TEXTO_FALTA_FICHERO_OBLIGATORIO" xml:space="preserve">
+    <value>Faltando arquivo necessário</value>
+  </data>
+  <data name="TEXTO_FECHA_INTRODUCIDA_NO_PUEDE_SER_MAYOR" xml:space="preserve">
+    <value>Comprove a data introduzida. Não poder ser posterior à data de hoje. </value>
+  </data>
+  <data name="TEXTO_FECHA_INTRODUCIDA_NO_PUEDE_SER_MENOR_A7DIAS_ATRAS" xml:space="preserve">
+    <value>Verifique a data digitada. Não pode ser inferior a hoje menos 7 dias. </value>
+  </data>
+  <data name="TEXTO_FECHA_VISITA_NO_PUEDE_SER_INFERIOR" xml:space="preserve">
+    <value>A data da visita não pode ser menos do que o prazo menos um ano.</value>
+  </data>
+  <data name="TEXTO_FECHA_VISITA_NO_PUEDE_SER_MAYOR" xml:space="preserve">
+    <value>A data da visita não pode ser maior que a data atual.</value>
+  </data>
+  <data name="TEXTO_FECHA_VISITA_NO_PUEDE_SER_SUPERIOR" xml:space="preserve">
+    <value>A data da visita não pode exceder o prazo.</value>
+  </data>
+  <data name="TEXTO_FICHERO_EXISTENTE_BBDD" xml:space="preserve">
+    <value>Ficheiro já existente na B.D. </value>
+  </data>
+  <data name="TEXTO_FILTROS_AVANZADOS" xml:space="preserve">
+    <value>Filtros avançado</value>
+  </data>
+  <data name="TEXTO_FILTROS_COLUMNA" xml:space="preserve">
+    <value>Filtros Columna</value>
+  </data>
+  <data name="TEXTO_FORMATO_NO_AUTORIZADO" xml:space="preserve">
+    <value>FORMATO NÃO AUTORIZADO NESTE CASO</value>
+  </data>
+  <data name="TEXTO_GAS_CONFORT" xml:space="preserve">
+    <value>Gás Conforto</value>
+  </data>
+  <data name="TEXTO_GENERADA_TRAS_LLAMADA_CORTESIA" xml:space="preserve">
+    <value>Criada após chamada de cortesia</value>
+  </data>
+  <data name="TEXTO_INFORMACION_POR_RECLAMACION" xml:space="preserve">
+    <value>Informação por reclamação</value>
+  </data>
+  <data name="TEXTO_LA_SOLICITUD" xml:space="preserve">
+    <value>O pedido: </value>
+  </data>
+  <data name="TEXTO_LISTADO_BERETTA" xml:space="preserve">
+    <value>Listagem Beretta</value>
+  </data>
+  <data name="TEXTO_LISTADO_CALDERAS" xml:space="preserve">
+    <value>Listagem de caldeiras</value>
+  </data>
+  <data name="TEXTO_LISTADO_MANTENIMIENTOS" xml:space="preserve">
+    <value>Listagem de manutenções</value>
+  </data>
+  <data name="TEXTO_LISTADO_SOLICITUDES" xml:space="preserve">
+    <value>Listagem de Pedidos</value>
+  </data>
+  <data name="TEXTO_MANTENIMIENTO_GAS" xml:space="preserve">
+    <value>Manutenção de gás</value>
+  </data>
+  <data name="TEXTO_MANTENIMIENTO_GAS_CALEFACCION" xml:space="preserve">
+    <value>Manutenção de gás de aquecimento</value>
+  </data>
+  <data name="TEXTO_MAS_DE_DOS_AVERIAS" xml:space="preserve">
+    <value>CONTRATO COM MAIS DE 2 AVARIAS SOLUCIONADAS. PRETENDE CONTINUAR E CRIAR UMA NOVA? (Ter em conta que o serviço deste contrato só abarca 2 avarias por ano)</value>
+  </data>
+  <data name="TEXTO_MOVIMIENTO_CORRECCION" xml:space="preserve">
+    <value>MOVIMENTO Correção</value>
+  </data>
+  <data name="TEXTO_NINGUNO" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="TEXTO_NO" xml:space="preserve">
+    <value>NÃO</value>
+  </data>
+  <data name="TEXTO_NOMBREFICHERO_INCORRECTO" xml:space="preserve">
+    <value>Nome do ficheiro incorreto</value>
+  </data>
+  <data name="TEXTO_NO_ABRIR_AVERIAS_21_DIAS" xml:space="preserve">
+    <value>Não é possível abrir avarias ao ter uma visita fechada há menos de 21 dias. O FORNECEDOR DEVERÁ ENTRAR EM CONTACTO COM O SEU RESPONSÁVEL.</value>
+  </data>
+  <data name="TEXTO_NO_ABRIR_AVERIAS_30_DIAS" xml:space="preserve">
+    <value>Não se podem abrir avarias ao ter uma avaria aberta há menos de 30 dias. O FORNECEDOR DEVERÁ ENTRAR EM CONTACTO COM O SEU RESPONSÁVEL.</value>
+  </data>
+  <data name="TEXTO_NO_ALTA_FALTAN_CAMPOS_OBLIGATORIOS" xml:space="preserve">
+    <value>O seu pedido não foi inscrito. Todos os campos exceto 'Observações' são obrigatórios.</value>
+  </data>
+  <data name="TEXTO_NO_COINCIDEN_LOS_VALORES" xml:space="preserve">
+    <value>Os valores NÃO COINCIDEM</value>
+  </data>
+  <data name="TEXTO_NO_DESCHEQUEAR_FACTURADO_PROVEEDOR" xml:space="preserve">
+    <value>Com o número de fatura informado não é possível retirar verificação de faturado pelo fornecedor</value>
+  </data>
+  <data name="TEXTO_NO_EXISTE_SOLICITUDES_EXPORTAR" xml:space="preserve">
+    <value>Não existem pedidos a exportar</value>
+  </data>
+  <data name="TEXTO_NO_FACTURAR_VISITA_SI_NO_CERRADA" xml:space="preserve">
+    <value>Não é possível faturar a visita se o estado da mesma não for fechado</value>
+  </data>
+  <data name="TEXTO_NO_HAY_CODIGO_CONTRATO" xml:space="preserve">
+    <value>Não há código de contrato</value>
+  </data>
+  <data name="TEXTO_NO_MODIFICAR_MAS_DE_21_DIAS" xml:space="preserve">
+    <value>Não pode alterar o estado da visita porque desde a última vez que modificou o estado da visita passaram mais de 21 dias</value>
+  </data>
+  <data name="TEXTO_NO_PERMITIDO_INDICAR_REPARACION" xml:space="preserve">
+    <value>Não é permitido indicar a reparação se a visita não estiver fechada</value>
+  </data>
+  <data name="TEXTO_NO_SE_HA_PODIDO_ALTA_SOLICITUD" xml:space="preserve">
+    <value>Não foi possível inscrever o pedido. Código:</value>
+  </data>
+  <data name="TEXTO_NO_SE_HA_PODIDO_MODIFICAR_SOLICITUD" xml:space="preserve">
+    <value>Não foi possível modificar o pedido. Código:</value>
+  </data>
+  <data name="TEXTO_NO_SE_PERMITE_ENVIO_CARTA" xml:space="preserve">
+    <value>Não é permitido selecionar envio de carta com este estado da visita</value>
+  </data>
+  <data name="TEXTO_NUEVA_CONTRASENHIA_NP_IGUAL_ACTUAL" xml:space="preserve">
+    <value>A nova palavra-chave não pode ser a mesma que a atual.</value>
+  </data>
+  <data name="TEXTO_NUEVO_AVISO" xml:space="preserve">
+    <value>Novo Aviso</value>
+  </data>
+  <data name="TEXTO_NUEVO_AVISO_CONTRATO" xml:space="preserve">
+    <value>Novo Aviso - Contrato</value>
+  </data>
+  <data name="TEXTO_NUEVO_PAGO_ADELANTADO" xml:space="preserve">
+    <value>Novo pagamento adiantado:</value>
+  </data>
+  <data name="TEXTO_OCULTAR_HISTORICO" xml:space="preserve">
+    <value>Ocultar Histórico</value>
+  </data>
+  <data name="TEXTO_PASSWORD_MINIMO_CARACTERES" xml:space="preserve">
+    <value>A palavra-chave deve ter pelo menos 6 caracteres.</value>
+  </data>
+  <data name="TEXTO_POR_GARANTIA_TOTAL" xml:space="preserve">
+    <value> por garantia total</value>
+  </data>
+  <data name="TEXTO_RENOVACION_CALDERA" xml:space="preserve">
+    <value>Renovação Caldera</value>
+  </data>
+  <data name="TEXTO_REPARADA" xml:space="preserve">
+    <value>reparada</value>
+  </data>
+  <data name="TEXTO_REPARADA_CON_DOCUMENTACION" xml:space="preserve">
+    <value>Reparada com documentação</value>
+  </data>
+  <data name="TEXTO_REPARADA_POR_TELEFONO" xml:space="preserve">
+    <value>Reparada por telefone</value>
+  </data>
+  <data name="TEXTO_REVISION_POR_PRECINTE" xml:space="preserve">
+    <value>Revisão por selagem</value>
+  </data>
+  <data name="TEXTO_SEGUNDA_VEZ_AUSENTE" xml:space="preserve">
+    <value>Ao ser a segunda vez que está ausente, o cliente deve comprovar os dados obrigatórios que tem de preencher. (Data de visita, receção do comprovativo, data de fatura da visita e código de barras da visita)</value>
+  </data>
+  <data name="TEXTO_SELECCIONAR_CONTRATO" xml:space="preserve">
+    <value>Selecionar Contrato </value>
+  </data>
+  <data name="TEXTO_SELECCIONE_MOTIVO_CANCELACION" xml:space="preserve">
+    <value>Selecione o motivo do cancelamento</value>
+  </data>
+  <data name="TEXTO_SELECCIONE_TIPO_VISITA" xml:space="preserve">
+    <value>Selecione um tipo de visita</value>
+  </data>
+  <data name="TEXTO_SERVICIO_MANTENIMIENTO_GAS" xml:space="preserve">
+    <value>Serviço de manutenção gás </value>
+  </data>
+  <data name="TEXTO_SERVICIO_MANTENIMIENTO_GAS_CALEFACCION" xml:space="preserve">
+    <value>Serviço de manutenção gás aquecimento</value>
+  </data>
+  <data name="TEXTO_SE_DEBEN_RELLENAR_CARACTERISTICAS_OBLIGATORIAS" xml:space="preserve">
+    <value>Devem ser preenchidas todas as características obrigatórias.</value>
+  </data>
+  <data name="TEXTO_SI" xml:space="preserve">
+    <value>Se</value>
+  </data>
+  <data name="TEXTO_SOLICITUDES" xml:space="preserve">
+    <value>pedido</value>
+  </data>
+  <data name="TEXTO_SOLICITUD_ABIERTA_ACTUALMENTE" xml:space="preserve">
+    <value>Este contrato tem um pedido aberto atualmente.</value>
+  </data>
+  <data name="TEXTO_SOLICITUD_ACEPTACION_PRESUPUESTO" xml:space="preserve">
+    <value>O presente contrato tem um pedido de falha aberta</value>
+  </data>
+  <data name="TEXTO_SOLICITUD_ALTA" xml:space="preserve">
+    <value>O pedido foi inscrito </value>
+  </data>
+  <data name="TEXTO_SOLICITUD_ALTA_CON_ENVIO_MAIL" xml:space="preserve">
+    <value>O pedido foi inscrito (e foi enviado um correio eletrónico ao fornecedor). </value>
+  </data>
+  <data name="TEXTO_SOLICITUD_DE_VISITA" xml:space="preserve">
+    <value>Pedido de visita SMG</value>
+  </data>
+  <data name="TEXTO_SOLICITUD_ELIMINADA" xml:space="preserve">
+    <value>O pedido foi eliminado.</value>
+  </data>
+  <data name="TEXTO_SOLICITUD_MODIFICADA" xml:space="preserve">
+    <value>O pedido foi alterado</value>
+  </data>
+  <data name="TEXTO_SOLICITUD_MODIFICADA_CON_ENVIO_MAIL" xml:space="preserve">
+    <value>Foi alterado o pedido (e foi enviado um correio eletrónico ao fornecedor). Pedido:</value>
+  </data>
+  <data name="TEXTO_SOLICITUD_NO_MODIFICADA" xml:space="preserve">
+    <value>Não foi possível modificar o pedido. </value>
+  </data>
+  <data name="TEXTO_SOLICITUD_NO_RESUELTA_LLAMADA_CORTESIA" xml:space="preserve">
+    <value>Pedido de avaria não resolvida após chamada de cortesia</value>
+  </data>
+  <data name="TEXTO_SOLICITUD_RECLAMACION" xml:space="preserve">
+    <value>Pedido reclamação </value>
+  </data>
+  <data name="TEXTO_TAMANIO_FICHERO_INCORRECTO" xml:space="preserve">
+    <value>Tamanho do ficheiro incorreto</value>
+  </data>
+  <data name="TEXTO_TECNICO_SUPERA_LIMITE_VISITAS_DIA" xml:space="preserve">
+    <value>Este técnico alcançou o limite de 12 visitas/dia.</value>
+  </data>
+  <data name="TEXTO_TELEFONOS_ACTUALIZADOS" xml:space="preserve">
+    <value>Telefones atualizados</value>
+  </data>
+  <data name="TEXTO_TELEFONO_DEBE_COMENZAR_6789" xml:space="preserve">
+    <value>O telefone deve começar pelo dígito 6, 7, 9 ou 8</value>
+  </data>
+  <data name="TEXTO_TELEFONO_DEBE_TENER_9_DIGITOS" xml:space="preserve">
+    <value>O telefone deve ter 9 dígitos</value>
+  </data>
+  <data name="TEXTO_TELEFONO_OBLIGATORIO" xml:space="preserve">
+    <value>O telefone é obrigatório</value>
+  </data>
+  <data name="TEXTO_TODAS" xml:space="preserve">
+    <value>TODAS</value>
+  </data>
+  <data name="TEXTO_TODOS" xml:space="preserve">
+    <value>TODOS</value>
+  </data>
+  <data name="TEXTO_VALORACION_CUADRO_MANDO" xml:space="preserve">
+    <value>AVALIAÇÃO DE PAINEL DE CONTROLO</value>
+  </data>
+  <data name="TEXTO_VER_HISTORICO" xml:space="preserve">
+    <value>Ver Histórico</value>
+  </data>
+  <data name="TEXTO_VISITA" xml:space="preserve">
+    <value>Visita:</value>
+  </data>
+  <data name="TEXTO_VISITA_MODIFICAR_FACTURADA" xml:space="preserve">
+    <value>A visita que vai modificar está Faturada. Se não retirar o número de fatura, não a poderá modificar, embora altere o estado.</value>
+  </data>
+  <data name="TEXTO_VISITA_REALIZADA" xml:space="preserve">
+    <value>Visita realizada</value>
+  </data>
+  <data name="TEXTO_VISITA_SUPERVISION" xml:space="preserve">
+    <value>Visita supervisão</value>
+  </data>
+  <data name="TEXTO_AVERIA_SUPERVISION" xml:space="preserve">
+    <value>Avaria supervisão</value>
+  </data>
+  <data name="TEXTO_VUELVA_A_SELECCIONAR_LA_SOLICITUD" xml:space="preserve">
+    <value>Selecione novamente o pedido de pesquisa</value>
+  </data>
+  <data name="TEXTO_YA_LIQUIDADO_CAMBIAR_ESTADO" xml:space="preserve">
+    <value>PEDIDO/VISITA JÁ LIQUIDADO. PRETENDE ALTERAR O ESTADO?</value>
+  </data>
+  <data name="TEXTO_YA_LIQUIDADO_ELIMINAR" xml:space="preserve">
+    <value>PEDIDO/VISITA JÁ LIQUIDADO. PRETENDE REALMENTE ELIMINAR?</value>
+  </data>
+  <data name="TEXZTO_CONTRASENHIA_CADUCADA" xml:space="preserve">
+    <value>A palavra-chave atual caducou.</value>
+  </data>
+</root>

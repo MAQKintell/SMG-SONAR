@@ -1,0 +1,135 @@
+﻿.FondoMenu
+{
+	background-image: url(../Imagenes/item_bg.png);
+}
+
+.divTituloVentana
+{
+    font-size:0.9em;
+    font-family:Trebuchet MS;
+	/*color:#262626;*/
+	font-weight:bold;
+    color:#34721f;
+    text-transform:uppercase;
+}
+#divListado
+{
+    position:absolute; 
+    top: 545px; 
+    left: 915px;
+}
+#divBotonAceptarContratos
+{
+    position:absolute; 
+    top: 1595px; 
+    left: 845px;
+    height: 20px;
+}
+#divBotonVolverContratos
+{
+    position:absolute; 
+    top: 1595px; 
+    left: 915px;
+    height: 20px;
+}
+#divBotonAceptar
+{
+    position:absolute; 
+    top: 545px; 
+    left: 845px;
+    height: 20px;
+}
+#divBotonVolver
+{
+    position:absolute; 
+    top: 545px; 
+    left: 915px;
+    height: 20px;
+}
+.labelFormulario
+{
+    font-family:Trebuchet MS;
+	text-decoration:none;
+	color:#262626;
+    font-size:11px;
+}
+
+.labelFormularioContratoValor
+{
+    font-family:Trebuchet MS;
+	text-decoration:none;
+	color:#262626;
+    font-size:xx-small;
+    font-weight:bold;
+}
+
+.labelFormularioValor
+{
+    font-family:Trebuchet MS;
+	text-decoration:none;
+	color:#262626;
+    font-size:11px;
+    font-weight:bold;
+}
+.campoFormulario
+{
+    font-family:Trebuchet MS;
+	color:#262626;
+	text-decoration:none;
+	font-size: 11px;
+}
+.campoFormulario input
+{
+    border:none;
+}
+
+.botonFormulario
+{
+    font-family:Trebuchet MS;
+    border-style:outset;
+    border-color:#34721f;
+    background-color:#34721f;
+    border:1px solid #262626; 
+    color:white;    
+    font-size:11px;
+    height:20px;
+    font-weight:bold;
+}
+
+.linkFormulario
+{
+    font-family:Trebuchet MS;
+    color:#262626;    
+    font-size:11px;
+}
+
+.linkFormulario.a:hover
+{
+    color:#66ab05;    
+}
+
+input
+{
+    font-family:Trebuchet MS;
+    color:#262626;
+    font-size: 11px;
+    border:1px solid #262626; 
+}
+select
+{
+    font-family:Trebuchet MS;
+    color:#262626;
+    font-size: 11px;
+    border:1px solid #262626;
+}
+
+div#divGrid th
+{
+    top:expression(this.offsetParent.scrollTop - 1);
+   /*top: expression(document.getElementById("divGrid").scrollTop-1);*/
+   /*left: expression(parentNode.parentNode.parentNode.parentNode.scrollLeft);*/
+   position: relative;
+   /*z-index: 20;*/
+}
+
+

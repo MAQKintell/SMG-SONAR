@@ -1,0 +1,966 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAceptarResource1.Text" xml:space="preserve">
+    <value>Aceptar PT</value>
+  </data>
+  <data name="btnAceptarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancelarResource1.Text" xml:space="preserve">
+    <value>Cancelar PT</value>
+  </data>
+  <data name="btnCancelarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAislamientoTermicoNO_58Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAislamientoTermicoNO_58Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAislamientoTermicoSI_58Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAislamientoTermicoSI_58Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAnalisisCombustionNO_59Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAnalisisCombustionNO_59Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAnalisisCombustionSI_59Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAnalisisCombustionSI_59Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAnomaliaEmpresaDistribuidora_66Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAnomaliaEmpresaDistribuidora_66Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAnomaliasDetectadas_63Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAnomaliasDetectadas_63Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAnomaliasNOReparadasResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAnomaliasNOReparadasResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAnomaliasReparadas_69Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAnomaliasReparadas_69Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkCaudalACSyPotenciaUtilNO_60Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkCaudalACSyPotenciaUtilNO_60Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkCaudalACSyPotenciaUtilSI_60Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkCaudalACSyPotenciaUtilSI_60Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkclienteNOAcpetaPresupuesto_72Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkclienteNOAcpetaPresupuesto_72Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkClienteNOPermitePrecinte_92Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkClienteNOPermitePrecinte_92Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkContadorDentro_2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkContadorDentro_2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkContadorFuera_2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkContadorFuera_2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkentregadoPresupuesto_67Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkentregadoPresupuesto_67Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEstanqueidadConductoEvacuacionNO_90Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEstanqueidadConductoEvacuacionNO_90Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEstanqueidadConductoEvacuacionSI_90Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEstanqueidadConductoEvacuacionSI_90Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEstanqueidadConexionAparatosNO_88Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEstanqueidadConexionAparatosNO_88Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEstanqueidadConexionAparatosSI_88Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEstanqueidadConexionAparatosSI_88Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEstanqueidadNO_54Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEstanqueidadNO_54Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEstanqueidadSI_54Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEstanqueidadSI_54Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkHidraulicoNO_89Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkHidraulicoNO_89Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkHidraulicoSI_89Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkHidraulicoSI_89Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInstalacionPrecintada_91Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInstalacionPrecintada_91Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkLimpiezaQuemadorLimpiezaNO_48Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkLimpiezaQuemadorLimpiezaNO_48Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkLimpiezaQuemadorLimpiezaSI_48Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkLimpiezaQuemadorLimpiezaSI_48Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkNivelesAguaNO_56Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkNivelesAguaNO_56Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkNivelesAguaSI_56Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkNivelesAguaSI_56Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkNoEmailResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkNoEmailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkOtros_75Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkOtros_75Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRegulacionAparatosNO_50Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRegulacionAparatosNO_50Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRegulacionAparatosSI_50Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRegulacionAparatosSI_50Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkReparacionImposible_74Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkReparacionImposible_74Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkReparacionPendienteNuevaCita_73Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkReparacionPendienteNuevaCita_73Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRevisiongeneralNO_52Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRevisiongeneralNO_52Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRevisiongeneralSI_52Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRevisiongeneralSI_52Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRevisionSistemaControlNO_61Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRevisionSistemaControlNO_61Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRevisionSistemaControlSI_61Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRevisionSistemaControlSI_61Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRevisionVasoExpansionNO_49Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRevisionVasoExpansionNO_49Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRevisionVasoExpansionSI_49Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRevisionVasoExpansionSI_49Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTiroEvacuacionNO_57Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTiroEvacuacionNO_57Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTiroEvacuacionSI_57Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTiroEvacuacionSI_57Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkVisitasinAnomlaias_62Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkVisitasinAnomlaias_62Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbMarcaCalderaInstalacion1_11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbMarcaCalderaInstalacion2_15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbMarcaCalderaInstalacion3_19Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbModeloCalderaInstalacion1_93Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbModeloCalderaInstalacion2_94Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbModeloCalderaInstalacion3_95Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbTecnico_10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCO2AP1Resource1.Text" xml:space="preserve">
+    <value>CO2 AP1: PT</value>
+  </data>
+  <data name="lblCO2AP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCO2AP2Resource1.Text" xml:space="preserve">
+    <value>CO2 AP2: PT</value>
+  </data>
+  <data name="lblCO2AP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCOAmbienteAP1Resource1.Text" xml:space="preserve">
+    <value>CO Ambiente AP1: PT</value>
+  </data>
+  <data name="lblCOAmbienteAP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCOAmbienteAP2Resource1.Text" xml:space="preserve">
+    <value>CO Ambiente AP2: PT</value>
+  </data>
+  <data name="lblCOAmbienteAP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCOCorregidoAP1Resource1.Text" xml:space="preserve">
+    <value>CO Corregido AP1: PT</value>
+  </data>
+  <data name="lblCOCorregidoAP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCOCorregidoAP2Resource1.Text" xml:space="preserve">
+    <value>CO Corregido AP2: PT</value>
+  </data>
+  <data name="lblCOCorregidoAP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLambdaAP1Resource1.Text" xml:space="preserve">
+    <value>Lambda AP1: PT</value>
+  </data>
+  <data name="lblLambdaAP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLambdaAP2Resource1.Text" xml:space="preserve">
+    <value>Lambda AP2: PT</value>
+  </data>
+  <data name="lblLambdaAP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblO2AP1Resource1.Text" xml:space="preserve">
+    <value>O2 AP1: PT</value>
+  </data>
+  <data name="lblO2AP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblO2AP2Resource1.Text" xml:space="preserve">
+    <value>O2 AP2: PT</value>
+  </data>
+  <data name="lblO2AP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQaAP1Resource1.Text" xml:space="preserve">
+    <value>Qa AP1: PT</value>
+  </data>
+  <data name="lblQaAP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQaAP2Resource1.Text" xml:space="preserve">
+    <value>Qa AP2: PT</value>
+  </data>
+  <data name="lblQaAP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRendimientoAP1Resource1.Text" xml:space="preserve">
+    <value>Rendimiento AP1: PT</value>
+  </data>
+  <data name="lblRendimientoAP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRendimientoAP2Resource1.Text" xml:space="preserve">
+    <value>Rendimiento AP2: PT</value>
+  </data>
+  <data name="lblRendimientoAP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSolicitudAveriaResource1.Text" xml:space="preserve">
+    <value>Nº Solicitud Averia: PT</value>
+  </data>
+  <data name="lblSolicitudAveriaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTGasesCombustionAP1Resource1.Text" xml:space="preserve">
+    <value>Tª Gases Combustión AP1: PT</value>
+  </data>
+  <data name="lblTGasesCombustionAP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTGasesCombustionAP2Resource1.Text" xml:space="preserve">
+    <value>Tª Gases Combustión AP2: PT</value>
+  </data>
+  <data name="lblTGasesCombustionAP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTiroAP1Resource1.Text" xml:space="preserve">
+    <value>Tiro AP1: PT</value>
+  </data>
+  <data name="lblTiroAP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTiroAP2Resource1.Text" xml:space="preserve">
+    <value>Tiro AP2: PT</value>
+  </data>
+  <data name="lblTiroAP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>DEBE DE SELECCIONAR EL TECNICO QUE HA REALIZADO LA VISITA PT</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>-1 PT</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>SELECCIONE LA MARCA PT</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>-1 PT</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>SELECCIONE EL MODELO PT</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>-1 PT</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>SELECCIONE LA MARCA PT</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>-1 PT</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>SELECCIONE EL MODELO PT</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>-1 PT</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>SELECCIONE LA MARCA PT</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>-1 PT</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>SELECCIONE EL MODELO PT</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>-1 PT</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>CIERRE DATOS VISITA PT</value>
+  </data>
+  <data name="txtAnhioInstalacion1_12Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAnhioInstalacion1_12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAnhioInstalacion2_16Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAnhioInstalacion2_16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAnhioInstalacion3_20Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAnhioInstalacion3_20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAnomaliasNOReparadas_71Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAnomaliasNOReparadas_71Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAnomaliasPrincipales_64Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAnomaliasPrincipales_64Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAnomaliasReparadas_70Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAnomaliasReparadas_70Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAnomaliasSecundarias_65Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAnomaliasSecundarias_65Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCategoriaInstalador_8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCategoriaInstalador_8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCaudalACS_25Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCaudalACS_25Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCCBB_1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCCBB_1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCIFEmpresaInstalador_6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCIFEmpresaInstalador_6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCO2AP1_35Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCO2AP1_35Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCO2AP2_44Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCO2AP2_44Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCOAmbienteAP1_32Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCOAmbienteAP1_32Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCOAmbienteAP2_41Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCOAmbienteAP2_41Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCOCorregidoAP1_31Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCOCorregidoAP1_31Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCOCorregidoAP2_40Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCOCorregidoAP2_40Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCodigoInstalacion1_14Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCodigoInstalacion1_14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCodigoInstalacion2_18Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCodigoInstalacion2_18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCodigoInstalacion3_22Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCodigoInstalacion3_22Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCOInstalacion1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCOInstalacion1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCOInstalacion2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCOInstalacion2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCOInstalacion3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCOInstalacion3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcontratoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcontratoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCPResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCPResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtdireccionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtdireccionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDNIConformeCliente_81Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDNIConformeCliente_81Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDNIResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDNIResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmail_3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmail_3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmpresaInstalador_7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmpresaInstalador_7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFechavisita_23Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFechavisita_23Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLambdaAP1_33Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLambdaAP1_33Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLambdaAP2_42Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLambdaAP2_42Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtModalidadResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtModalidadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNIFTecnico_4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNIFTecnico_4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNombreCliente_80Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNombreCliente_80Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNombreResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNombreResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNumeroEmpresaMantenedora_5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNumeroEmpresaMantenedora_5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNumeroResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNumeroResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNumInstalador_9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNumInstalador_9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtO2AP1_36Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtO2AP1_36Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtO2AP2_45Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtO2AP2_45Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtObservacionesCliente_79Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtObservacionesCliente_79Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtObservacionesDelInstalador_78Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtObservacionesDelInstalador_78Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPisoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPisoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPoblacionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPoblacionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPotenciaInstalacion1_13Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPotenciaInstalacion1_13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPotenciaInstalacion2_17Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPotenciaInstalacion2_17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPotenciaInstalacion3_21Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPotenciaInstalacion3_21Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPotenciaUtil_26Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPotenciaUtil_26Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtProvinciaResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtProvinciaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtQaAp1_37Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtQaAp1_37Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtQaAP2_46Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtQaAP2_46Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrendimeintoAP1_38Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrendimeintoAP1_38Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrendimeintoAP2_47Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrendimeintoAP2_47Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSolicitudAveria_68Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSolicitudAveria_68Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTemperaturaAmbiente_27Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTemperaturaAmbiente_27Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTemperaturaGasesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTemperaturaGasesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTemperaturaGeneradorEntrada_28Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTemperaturaGeneradorEntrada_28Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTemperaturaGeneradorsalida_29Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTemperaturaGeneradorsalida_29Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTemperaturaMaximaACS_24Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTemperaturaMaximaACS_24Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTGasesCombustionAP1_30Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTGasesCombustionAP1_30Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTGasesCombustionAP2_39Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTGasesCombustionAP2_39Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTiroAP1_34Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTiroAP1_34Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTiroAP2_43Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTiroAP2_43Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

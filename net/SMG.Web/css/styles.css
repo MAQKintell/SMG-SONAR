@@ -1,0 +1,93 @@
+.GridMovimiento{
+	float:left;
+	margin:4px;
+	top:125px;
+	/* Giving the sponsor div a relative positioning: */
+	/*position:relative;*/
+	cursor:pointer;
+	height: 376px; width: 958px;
+}
+
+.GridMovimientoCalderas{
+	float:left;
+	margin:0px;
+	left:0px;
+	top:74px;
+	/* Giving the sponsor div a relative positioning: */
+	/*position:relative;*/
+	height: 500px; width: 958px;
+} 
+
+.GridDatos{
+	position:absolute;
+	top: 15px; left: 0px;
+	width:100%;
+	height:100%;
+	border:1px solid #ddd;	
+}
+
+.GridDatos:hover{
+	border:1px solid #999;
+	/* CSS3 inset shadow: */
+	-moz-box-shadow:0 0 30px #999 inset;
+	-webkit-box-shadow:0 0 30px #999 inset;
+}
+
+.reparacion{
+	/* Hiding the .sponsorData div */
+	display:none;
+}
+
+.GridDatosCalderas{
+	position:absolute;
+	top: 15px; left: 0px;
+	width:100%;
+	height:100%;
+	border:1px solid #ddd;	
+	background-color:#dce4d9;
+}
+
+.GridDatosCalderas:hover{
+	/*border:1px solid #999;*/
+	/* CSS3 inset shadow: */
+	-moz-box-shadow:0 0 30px #999 inset;
+	-webkit-box-shadow:0 0 30px #999 inset;
+}
+
+.VariosClientesCalderas{
+	/* Hiding the .sponsorData div */
+	
+	display:none;
+}
+
+
+.sponsor{
+	width:180px;
+	height:180px;
+	float:left;
+	margin:4px;
+	/* Giving the sponsor div a relative positioning: */
+	position:relative;
+	cursor:pointer;
+}
+
+.sponsorFlip{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	border:1px solid #ddd;	
+}
+
+.sponsorFlip:hover{
+	border:1px solid #999;
+	/* CSS3 inset shadow: */
+	-moz-box-shadow:0 0 30px #999 inset;
+	-webkit-box-shadow:0 0 30px #999 inset;
+}
+
+.sponsorData{
+	/* Hiding the .sponsorData div */
+	display:none;
+}

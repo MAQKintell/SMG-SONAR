@@ -1,0 +1,64 @@
+﻿body
+{
+    font-family: Verdana;
+    font-size: x-small;
+    color: #003399;
+    font-weight: bold;
+}
+
+.TEXTBOX
+{
+    font-family: Verdana;
+    font-size: x-small;
+    margin-left: 0px;
+	height: 16px;
+	width: 106px;
+}
+.BUTTON
+{
+    font-family: Verdana;
+    font-size: x-small;
+    color: #000080;
+    font-weight: bold;
+	height: 18px;
+}
+.TITULO1
+{
+    font-family: Verdana;
+    font-size: medium;
+    font-weight: bold;
+    color: #008000;
+	margin-left: 18px;
+}
+.TITULO2
+{
+    font-family: Verdana;
+    font-size: small;
+    font-weight: bold;
+    color: #008000;
+}
+.MENSAJE
+{
+    font-family: Verdana;
+    font-weight: bold;
+    color: #990000;
+}
+.TEXTOS
+{
+    font-family: Verdana;
+    font-size: x-small;
+    color: #003399;
+    font-weight: bold;
+}
+
+/* Locks the left column 
+/*td.locked, th.locked {
+position:relative;
+left: expression(document.getElementById("div-datagrid").scrollLeft-2); IE5+ only*/
+/*}*/
+
+/* Locks table header */
+th {
+	position:relative;
+	/*top: expression(document.getElementById("div-datagrid").scrollTop-2); /*IE5+ only*/
+}

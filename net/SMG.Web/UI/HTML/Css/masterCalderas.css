@@ -1,0 +1,262 @@
+﻿body {
+     margin-top:3px; 
+     margin-left:3px;
+     width :1010px;
+     padding : 0px;
+}
+body.bodyModal 
+{
+    background-color:#dce4d9;
+    padding:5px 5px 5px 5px;
+    /*width:609px;*/
+    width :auto;
+}
+/* Estilos CABECERA */
+#divCabecera {
+    position:absolute;
+    top:3px;
+}
+.cabeceraIzdaModal {
+    height:47px;
+    width: 20px;
+	background-repeat:no-repeat;
+    background-image:url(./../Images/cabeceraIzda.gif);
+}
+.cabeceraCentroModal {
+    height:47px;
+    background-image:url(./../Images/cabeceraCentro.gif);
+}
+.cabeceraDchaModal {
+    height:47px;
+    width: 20px;
+	background-repeat:no-repeat;
+    background-image:url(./../Images/cabeceraDcha.gif);
+}
+
+#cabeceraIzda {
+    height:47px;
+    width: 20px;
+	background-repeat:no-repeat;
+    background-image:url(./../Images/cabeceraIzda.gif);
+    position: relative;
+    float:left;
+}
+#cabeceraCentro {
+    height:47px;
+    width: 961px;
+    vertical-align:middle;
+	background-image:url(./../Images/cabeceraCentro.gif);	
+	position:relative; 
+    float:left;
+}
+#cabeceraDcha {
+    height:47px;
+    width:20px;
+    background-repeat:no-repeat;
+	background-image:url(./../Images/cabeceraDcha.gif);
+	position:relative; 
+    float:left;
+}
+/* Estilos CONTENIDO */
+#divContenido 
+{
+    position:absolute;
+    top:53px;
+    left:15px;
+    height:593px;
+    width:965px;
+    background-color:#dce4d9;
+    padding:5px 5px 5px 5px;
+}
+#divSplashScreen
+{
+    position:absolute;
+    top:275px;
+    left:375px;
+    height:100px;
+    width:200px;
+    border: solid 1px #000000;
+    background-color:#ffffff;
+    padding:5px 5px 5px 5px;
+    z-index:10001;
+    visibility:hidden;
+    cursor:wait;
+}
+
+/* Estilos MENU*/
+#divMenu {
+    position:absolute;
+    top:52px;
+    left:15px;
+    width:984px;
+}
+#divMenuPie {
+	background-image:url(./../Images/pie_fondo_submenu.gif);
+	background-repeat:no-repeat;
+    background-position: 0% 0% 0% 0%;
+	width:980px;
+}
+#divMenuCuerpo ul {
+    background-image:url(./../Images/fondo_submenu.gif);
+    background-repeat:no-repeat;
+	background-color:#fafafa;
+    width:962px;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 10px;
+	border-left:1px solid #e9e9e9;
+	border-right:1px solid #e9e9e9;
+	list-style:none;
+	min-height:20px
+}
+#divMenuCuerpo ul li {
+    margin:0px;
+	display:inline; /*links en linea*/
+	padding:0px;
+}
+#divMenuCuerpo ul li a {
+	font-family:Trebuchet MS;
+	color:#262626;
+	text-decoration:none;
+	border-left:1px solid #66ab05; /*Pone el borde de la izquierda*/
+	padding:0px 6px 0px 10px;
+	font-size:0.70em;
+	text-transform:uppercase;
+	margin:0px;
+}
+/*Sera el primer link*/
+
+/*Sera el ultimo link*/
+#divMenuCuerpo ul li a.botonMenuNormal {
+    color:#262626;
+}
+#divMenuCuerpo ul li a.botonMenuActivo {
+    color:#66ab05;
+    font-weight:bold;
+}
+#divMenuCuerpo ul li a.botonMenuNormalPrimero {
+    color:#262626;
+    border-left:0px; /*Quita el borde de la izquierda*/
+}
+#divMenuCuerpo ul li a.botonMenuActivoPrimero {
+    color:#66ab05;
+    font-weight:bold;
+    border-left:0px; /*Quita el borde de la izquierda*/
+}
+#divMenuCuerpo ul li a:focus { 
+	color:#66ab05;
+}
+#divMenuCuerpo ul li a:hover {
+	color:#66ab05;
+}
+/* Estilos PIE */
+#divPie {
+    position:absolute;
+    top:660px;
+}
+#pieIzda {
+	height:8px;
+	width:3px;
+	background-image:url(./../Images/pieIzda.jpg);
+	background-repeat:no-repeat;
+	position:relative; 
+    float:left;
+}
+#pieCentro{
+	height:8px;
+	width: 994px;
+	background-image:url('../Images/pieCentro.jpg');
+	background-repeat:repeat-x;
+	position: relative ; 
+    float: left ;
+}
+#pieDcha{
+	height:8px;
+	background-image:url(./../Images/pieDcha.jpg);
+	width:3px;
+	background-repeat:no-repeat;
+	position:relative; 
+    float:left;
+}
+
+#copyRight
+{
+    height:1px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    color:#4a9024;
+    font-size: 0.75em;	
+    font-family: Trebuchet MS;
+    text-decoration: none;
+}
+
+/* Estilos Texto */
+.textoTituloCabecera {
+    font-family:Trebuchet MS;
+    color:#ffffff;
+    font-size:1.2em;
+}
+.textoTituloCabeceraModal {
+    font-family:Trebuchet MS;
+    color:#ffffff;
+    font-size:1.0em;
+    text-align:left;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+.textoUsuarioConectado {
+    font-family:Trebuchet MS;
+    color:#ffffff;
+    font-size:0.8em;
+}
+a.desconectar {
+	font-family:Trebuchet MS;
+	color:#66ab05;
+	text-decoration:none;
+	padding:0px 6px 0px 10px;
+	font-size:0.63em;
+	text-decoration:underline;
+	margin:0px;
+	
+}
+
+.linkPaginacion
+{
+   	font-family:Trebuchet MS;
+	color:#66ab05;
+	text-decoration:none;
+	padding-left: 5px;
+	font-size:0.63em;
+	text-decoration:underline;
+	margin:0px;
+	border:none;
+	background-color:#dce4d9;
+	cursor:pointer;
+}
+
+.linkPaginacionDeshabilitado
+{
+   	font-family:Trebuchet MS;
+	color:#262626;
+	text-decoration:none;
+	padding-left: 5px;
+	font-size:0.7em;
+	text-decoration:none;
+	margin:0px;
+	border:none;
+	background-color:#dce4d9;
+}
+
+a:hover.desconectar {
+	color:#77cf10;
+}
+
+.copyRight
+{
+    height:22px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    color:#4a9024;
+    font-size: 0.75em;	
+    font-family: Trebuchet MS;
+    text-decoration: none;
+}

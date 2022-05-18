@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPagePrueba.master.cs" Inherits="Iberdrola.SMG.UI_PruebasDiseño.MasterPagePrueba" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>IBERDROLA - OPERA SMG </title>
+    <style type="text/css">
+body
+ {
+     background-image: url(EnteraLimpia.gif);
+     background-repeat: no-repeat;
+ }
+ </style>
+</head>
+<body id="cuerpo">   
+    <form id="frmMaster" runat="server" autocomplete="off" >
+
+     <div id="divContenido" 
+         style="position:absolute; top: 248px; left: 83px; z-index:99999; height: 25px;">     
+        <asp:ContentPlaceHolder id="ContentPlaceHolderContenido" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+        <asp:PlaceHolder ID="_PlaceHolderScript" runat="server"></asp:PlaceHolder>
+</form>
+</body>
+</html>

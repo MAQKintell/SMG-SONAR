@@ -1,0 +1,1212 @@
+Timestamp: 26/05/2009 10:56:19 Severity: Error 
+Message: No se encontró ningún campo o propiedad 'COD_ESTADO_VISITA' en el origen de datos seleccionado.
+System.Web.HttpException: No se encontró ningún campo o propiedad 'COD_ESTADO_VISITA' en el origen de datos seleccionado.
+   en System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   en System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   en System.Web.UI.Control.OnDataBinding(EventArgs e)
+   en System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   en System.Web.UI.Control.DataBind()
+   en System.Web.UI.Control.DataBindChildren()
+   en System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   en System.Web.UI.Control.DataBind()
+   en System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   en System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   en System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   en System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   en System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   en System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   en System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   en System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   en System.Web.UI.WebControls.GridView.DataBind()
+   en Iberdrola.SMG.UI.FrmDetalleContrato.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDR13\SMG\DESARROLLO\SMG.Web\UI\FrmDetalleContrato.aspx.cs:línea 45
+----------------------------------------
+Timestamp: 26/05/2009 10:56:27 Severity: Error 
+Message: No se encontró ningún campo o propiedad 'COD_ESTADO_VISITA' en el origen de datos seleccionado.
+System.Web.HttpException: No se encontró ningún campo o propiedad 'COD_ESTADO_VISITA' en el origen de datos seleccionado.
+   en System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   en System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   en System.Web.UI.Control.OnDataBinding(EventArgs e)
+   en System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   en System.Web.UI.Control.DataBind()
+   en System.Web.UI.Control.DataBindChildren()
+   en System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   en System.Web.UI.Control.DataBind()
+   en System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   en System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   en System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   en System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   en System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   en System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   en System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   en System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   en System.Web.UI.WebControls.GridView.DataBind()
+   en Iberdrola.SMG.UI.FrmDetalleContrato.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDR13\SMG\DESARROLLO\SMG.Web\UI\FrmDetalleContrato.aspx.cs:línea 45
+----------------------------------------
+Timestamp: 27/08/2013 9:00:12 Severity: Error 
+Message: La cadena de entrada no tiene el formato correcto.
+System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Iberdrola.SMG.UI.FrmModalAltaReclamacion.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDR13\SMG\DESARROLLO\SMG.Web\UI\FrmModalAltaReclamacion.aspx.cs:línea 38
+----------------------------------------
+Timestamp: 27/08/2013 9:01:35 Severity: Error 
+Message: La cadena de entrada no tiene el formato correcto.
+System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Iberdrola.SMG.UI.FrmModalAltaReclamacion.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDR13\SMG\DESARROLLO\SMG.Web\UI\FrmModalAltaReclamacion.aspx.cs:línea 38
+----------------------------------------
+Timestamp: 08/10/2013 7:45:25 Severity: Error 
+Message: La cadena de entrada no tiene el formato correcto.
+System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Iberdrola.SMG.UI.FrmModalAltaReclamacion.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDR13\SMG\DESARROLLO\SMG.Web\UI\FrmModalAltaReclamacion.aspx.cs:línea 45
+----------------------------------------
+Timestamp: 08/10/2013 7:46:43 Severity: Error 
+Message: La cadena de entrada no tiene el formato correcto.
+System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Iberdrola.SMG.UI.FrmModalAltaReclamacion.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDR13\SMG\DESARROLLO\SMG.Web\UI\FrmModalAltaReclamacion.aspx.cs:línea 45
+----------------------------------------
+Timestamp: 08/10/2013 7:49:30 Severity: Error 
+Message: La cadena de entrada no tiene el formato correcto.
+System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Iberdrola.SMG.UI.FrmModalAltaReclamacion.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDR13\SMG\DESARROLLO\SMG.Web\UI\FrmModalAltaReclamacion.aspx.cs:línea 45
+----------------------------------------
+Timestamp: 18/06/2014 7:46:16 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.DAL.DB.VisitasDB.ObtenerContador_Visitas_Dia_por_Tecnico(Int32 nIDTecnico) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\App_Code\CS_Code\SMG\DAL\DB\VisitasDB.cs:línea 237
+   en Visitas.ObtenerContador_Visitas_Dia_por_Tecnico(Int32 nIDTecnico) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\App_Code\CS_Code\SMG\BLL\Visitas.cs:línea 131
+   en Iberdrola.SMG.UI.FrmDetalleVisita.cboTecnico_SelectedIndexChanged(Object sender, EventArgs e) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 2294
+----------------------------------------
+Timestamp: 18/06/2014 7:48:51 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.DAL.DB.VisitasDB.ObtenerContador_Visitas_Dia_por_Tecnico(Int32 nIDTecnico) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\App_Code\CS_Code\SMG\DAL\DB\VisitasDB.cs:línea 237
+   en Visitas.ObtenerContador_Visitas_Dia_por_Tecnico(Int32 nIDTecnico) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\App_Code\CS_Code\SMG\BLL\Visitas.cs:línea 131
+   en Iberdrola.SMG.UI.FrmDetalleVisita.cboTecnico_SelectedIndexChanged(Object sender, EventArgs e) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 2294
+----------------------------------------
+Timestamp: 18/06/2014 7:59:04 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.DAL.DB.VisitasDB.ObtenerContador_Visitas_Dia_por_Tecnico(Int32 nIDTecnico) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\App_Code\CS_Code\SMG\DAL\DB\VisitasDB.cs:línea 245
+   en Visitas.ObtenerContador_Visitas_Dia_por_Tecnico(Int32 nIDTecnico) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\App_Code\CS_Code\SMG\BLL\Visitas.cs:línea 131
+   en Iberdrola.SMG.UI.FrmDetalleVisita.cboTecnico_SelectedIndexChanged(Object sender, EventArgs e) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 2294
+----------------------------------------
+Timestamp: 18/06/2014 8:54:52 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.DAL.DB.VisitasDB.ObtenerContador_Visitas_Dia_por_Tecnico(Int32 nIDTecnico) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\App_Code\CS_Code\SMG\DAL\DB\VisitasDB.cs:línea 252
+   en Visitas.ObtenerContador_Visitas_Dia_por_Tecnico(Int32 nIDTecnico) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\App_Code\CS_Code\SMG\BLL\Visitas.cs:línea 131
+   en Iberdrola.SMG.UI.FrmDetalleVisita.cboTecnico_SelectedIndexChanged(Object sender, EventArgs e) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 2294
+----------------------------------------
+Timestamp: 18/06/2014 9:08:05 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.DAL.DB.VisitasDB.ObtenerContador_Visitas_Dia_por_Tecnico(Int32 nIDTecnico) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\App_Code\CS_Code\SMG\DAL\DB\VisitasDB.cs:línea 254
+   en Visitas.ObtenerContador_Visitas_Dia_por_Tecnico(Int32 nIDTecnico) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\App_Code\CS_Code\SMG\BLL\Visitas.cs:línea 131
+   en Iberdrola.SMG.UI.FrmDetalleVisita.cboTecnico_SelectedIndexChanged(Object sender, EventArgs e) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 2294
+----------------------------------------
+Timestamp: 18/06/2014 9:12:32 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.DAL.DB.VisitasDB.ObtenerContador_Visitas_Dia_por_Tecnico(Int32 nIDTecnico) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\App_Code\CS_Code\SMG\DAL\DB\VisitasDB.cs:línea 254
+   en Visitas.ObtenerContador_Visitas_Dia_por_Tecnico(Int32 nIDTecnico) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\App_Code\CS_Code\SMG\BLL\Visitas.cs:línea 131
+   en Iberdrola.SMG.UI.FrmDetalleVisita.cboTecnico_SelectedIndexChanged(Object sender, EventArgs e) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 2294
+----------------------------------------
+Timestamp: 18/06/2014 9:25:09 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.DAL.DB.VisitasDB.ObtenerContador_Visitas_Dia_por_Tecnico(Int32 nIDTecnico) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\App_Code\CS_Code\SMG\DAL\DB\VisitasDB.cs:línea 254
+   en Visitas.ObtenerContador_Visitas_Dia_por_Tecnico(Int32 nIDTecnico) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\App_Code\CS_Code\SMG\BLL\Visitas.cs:línea 131
+   en Iberdrola.SMG.UI.FrmDetalleVisita.cboTecnico_SelectedIndexChanged(Object sender, EventArgs e) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 2294
+----------------------------------------
+Timestamp: 18/06/2014 10:15:06 Severity: Error 
+Message: La cadena de entrada no tiene el formato correcto.
+System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Iberdrola.SMG.UI.FrmDetalleVisita.OnBtnAceptar_Click(Object sender, EventArgs e) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 1413
+----------------------------------------
+Timestamp: 23/06/2014 8:13:31 Severity: Error 
+Message: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+System.ArgumentOutOfRangeException: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+   en System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   en System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en Iberdrola.Commons.Web.NavigationController.Backward() en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\App_Code\CS_Code\Commons\Web\NavigationController.cs:línea 94
+   en Iberdrola.SMG.UI.FrmDetalleVisita.OnBtnAceptar_Click(Object sender, EventArgs e) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 1570
+----------------------------------------
+Timestamp: 23/06/2014 8:43:41 Severity: Error 
+Message: La cadena de entrada no tiene el formato correcto.
+System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Iberdrola.SMG.UI.FrmDetalleVisita.OnBtnAceptar_Click(Object sender, EventArgs e) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 1413
+----------------------------------------
+Timestamp: 23/06/2014 9:37:56 Severity: Error 
+Message: La cadena de entrada no tiene el formato correcto.
+System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Iberdrola.SMG.UI.FrmDetalleVisita.OnBtnAceptar_Click(Object sender, EventArgs e) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 1413
+----------------------------------------
+Timestamp: 23/06/2014 10:06:22 Severity: Error 
+Message: La cadena de entrada no tiene el formato correcto.
+System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Iberdrola.SMG.UI.FrmDetalleVisita.OnBtnAceptar_Click(Object sender, EventArgs e) en c:\Proyectos\Iberdr13\SMG\branches\web_des\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 1413
+----------------------------------------
+Timestamp: 11/04/2016 14:47:14 Severity: Error 
+Message: Índice fuera de los límites de la matriz.
+System.IndexOutOfRangeException: Índice fuera de los límites de la matriz.
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.CambioComboCaracteristica_SelectedIndexChanged(String ID, String selectedValue) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 1058
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 62
+----------------------------------------
+Timestamp: 11/04/2016 14:56:45 Severity: Error 
+Message: Índice fuera de los límites de la matriz.
+System.IndexOutOfRangeException: Índice fuera de los límites de la matriz.
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.CambioComboCaracteristica_SelectedIndexChanged(String ID, String selectedValue) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 1061
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 62
+----------------------------------------
+Timestamp: 12/04/2016 6:44:46 Severity: Error 
+Message: Índice fuera de los límites de la matriz.
+System.IndexOutOfRangeException: Índice fuera de los límites de la matriz.
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.CambioComboCaracteristica_SelectedIndexChanged(String ID, String selectedValue) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 1061
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 62
+----------------------------------------
+Timestamp: 12/04/2016 6:49:42 Severity: Error 
+Message: Índice fuera de los límites de la matriz.
+System.IndexOutOfRangeException: Índice fuera de los límites de la matriz.
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.CambioComboCaracteristica_SelectedIndexChanged(String ID, String selectedValue) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 1061
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 62
+----------------------------------------
+Timestamp: 12/04/2016 7:31:32 Severity: Error 
+Message: 'ddlEstado' tiene un SelectedValue que no es válido porque no existe en la lista de elementos.
+Nombre del parámetro: value
+System.ArgumentOutOfRangeException: 'ddlEstado' tiene un SelectedValue que no es válido porque no existe en la lista de elementos.
+Nombre del parámetro: value
+   en System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.NuevoSubtipoSeleccionado() en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrollo\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 3060
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrollo\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1660
+----------------------------------------
+Timestamp: 24/05/2016 7:28:14 Severity: Error 
+Message: Índice fuera de los límites de la matriz.
+System.IndexOutOfRangeException: Índice fuera de los límites de la matriz.
+   en Iberdrola.SMG.UI.FrmDetalleVisita.SubirFichero() en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 1833
+----------------------------------------
+Timestamp: 24/05/2016 7:46:44 Severity: Error 
+Message: La cadena de entrada no tiene el formato correcto.
+System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int16.Parse(String s)
+   en Iberdrola.SMG.UI.FrmDetalleVisita.SubirFichero() en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 1835
+----------------------------------------
+Timestamp: 01/06/2016 11:14:32 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1597
+----------------------------------------
+Timestamp: 03/06/2016 7:46:04 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.RecControles(Control control) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1600
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.RecControles(Control control) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1590
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1618
+----------------------------------------
+Timestamp: 03/06/2016 7:46:08 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.RecControles(Control control) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1600
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.RecControles(Control control) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1590
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1618
+----------------------------------------
+Timestamp: 03/06/2016 7:47:02 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.RecControles(Control control) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1600
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.RecControles(Control control) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1590
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1620
+----------------------------------------
+Timestamp: 03/06/2016 7:47:39 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.RecControles(Control control) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1600
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.RecControles(Control control) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1590
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1620
+----------------------------------------
+Timestamp: 03/06/2016 7:48:09 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.RecControles(Control control) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1600
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.RecControles(Control control) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1590
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1620
+----------------------------------------
+Timestamp: 03/06/2016 7:48:52 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.RecControles(Control control) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1600
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.RecControles(Control control) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1590
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1622
+----------------------------------------
+Timestamp: 03/06/2016 7:51:16 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.RecControles(Control control) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1600
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.RecControles(Control control) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1590
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1622
+----------------------------------------
+Timestamp: 03/06/2016 8:12:52 Severity: Error 
+Message: 'ddl_Provincia' tiene un SelectedValue que no es válido porque no existe en la lista de elementos.
+Nombre del parámetro: value
+System.ArgumentOutOfRangeException: 'ddl_Provincia' tiene un SelectedValue que no es válido porque no existe en la lista de elementos.
+Nombre del parámetro: value
+   en System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   en System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   en System.Web.UI.WebControls.ListControl.PerformSelect()
+   en System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.CargarComboProvincias() en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 2513
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1679
+----------------------------------------
+Timestamp: 03/06/2016 8:13:47 Severity: Error 
+Message: 'ddl_Provincia' tiene un SelectedValue que no es válido porque no existe en la lista de elementos.
+Nombre del parámetro: value
+System.ArgumentOutOfRangeException: 'ddl_Provincia' tiene un SelectedValue que no es válido porque no existe en la lista de elementos.
+Nombre del parámetro: value
+   en System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   en System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   en System.Web.UI.WebControls.ListControl.PerformSelect()
+   en System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.CargarComboProvincias() en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 2513
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1679
+----------------------------------------
+Timestamp: 03/06/2016 8:15:19 Severity: Error 
+Message: 'ddl_Subtipo' tiene un SelectedValue que no es válido porque no existe en la lista de elementos.
+Nombre del parámetro: value
+System.ArgumentOutOfRangeException: 'ddl_Subtipo' tiene un SelectedValue que no es válido porque no existe en la lista de elementos.
+Nombre del parámetro: value
+   en System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   en System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   en System.Web.UI.WebControls.ListControl.PerformSelect()
+   en System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.CargaComboSubtipoSolicitud(String cod_tipo_solicitud) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 2531
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1688
+----------------------------------------
+Timestamp: 03/06/2016 8:20:12 Severity: Error 
+Message: 'ddl_Subtipo' tiene un SelectedValue que no es válido porque no existe en la lista de elementos.
+Nombre del parámetro: value
+System.ArgumentOutOfRangeException: 'ddl_Subtipo' tiene un SelectedValue que no es válido porque no existe en la lista de elementos.
+Nombre del parámetro: value
+   en System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   en System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   en System.Web.UI.WebControls.ListControl.PerformSelect()
+   en System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.CargaComboSubtipoSolicitud(String cod_tipo_solicitud) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 2531
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1688
+----------------------------------------
+Timestamp: 03/06/2016 9:04:48 Severity: Error 
+Message: El objeto de tipo 'System.String' no puede convertirse en el tipo 'System.Web.UI.WebControls.TextBoxMode'.
+System.ArgumentException: El objeto de tipo 'System.String' no puede convertirse en el tipo 'System.Web.UI.WebControls.TextBoxMode'.
+   en System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   en System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   en System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   en System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   en System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   en System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.RecControles(Control control) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1620
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.RecControles(Control control) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1591
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.RecControles(Control control) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1591
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.RecControles(Control control) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1591
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.RecControles(Control control) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1591
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1641
+----------------------------------------
+Timestamp: 12-07-2016 8:27:44 Severity: Error 
+Message: Procedure or function 'MTOGASBD_GetEstadosSolicitudPorTipoSubtipo' expects parameter '@idIDIOMA', which was not supplied.
+System.Data.SqlClient.SqlException: Procedure or function 'MTOGASBD_GetEstadosSolicitudPorTipoSubtipo' expects parameter '@idIDIOMA', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at EstadosSolicitudDB.GetEstadosSolicitudPorTipoSubtipo(String tipo_solicitud, String subtipo_solicitud, Int32 idIdioma) in C:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\App_Code\VB_Code\Components\EstadosSolicitudDB.vb:line 75
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.CargaComboEstadoSolicitud(String cod_tipo, String cod_subtipo) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 2599
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 1653
+----------------------------------------
+Timestamp: 12-07-2016 8:28:15 Severity: Error 
+Message: Procedure or function 'MTOGASBD_GetEstadosSolicitudPorTipoSubtipo' expects parameter '@idIDIOMA', which was not supplied.
+System.Data.SqlClient.SqlException: Procedure or function 'MTOGASBD_GetEstadosSolicitudPorTipoSubtipo' expects parameter '@idIDIOMA', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at EstadosSolicitudDB.GetEstadosSolicitudPorTipoSubtipo(String tipo_solicitud, String subtipo_solicitud, Int32 idIdioma) in C:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\App_Code\VB_Code\Components\EstadosSolicitudDB.vb:line 75
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.CargaComboEstadoSolicitud(String cod_tipo, String cod_subtipo) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 2599
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 1653
+----------------------------------------
+Timestamp: 14-07-2016 8:35:40 Severity: Error 
+Message: Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Iberdrola.SMG.UI.frmGestionUsuarios.hdnBtnCargarUsuario_Click(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmGestionUsuarios.aspx.cs:line 144
+----------------------------------------
+Timestamp: 19-07-2016 12:07:49 Severity: Error 
+Message: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.InvalidCastException: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at TiposSolicitudDB.GetProvincias(String Proveedor, Int32 idIdioma) in C:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\App_Code\VB_Code\Components\TiposSolicitudDB.vb:line 48
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.CargarComboProvincias() in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 2491
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 1650
+----------------------------------------
+Timestamp: 19-07-2016 12:08:16 Severity: Error 
+Message: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.InvalidCastException: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at TiposSolicitudDB.GetProvincias(String Proveedor, Int32 idIdioma) in C:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\App_Code\VB_Code\Components\TiposSolicitudDB.vb:line 48
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.CargarComboProvincias() in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 2491
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 1650
+----------------------------------------
+Timestamp: 19-07-2016 12:08:27 Severity: Error 
+Message: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.InvalidCastException: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at TiposSolicitudDB.GetProvincias(String Proveedor, Int32 idIdioma) in C:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\App_Code\VB_Code\Components\TiposSolicitudDB.vb:line 48
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.CargarComboProvincias() in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 2491
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 1650
+----------------------------------------
+Timestamp: 19-07-2016 12:08:30 Severity: Error 
+Message: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.InvalidCastException: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at TiposSolicitudDB.GetProvincias(String Proveedor, Int32 idIdioma) in C:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\App_Code\VB_Code\Components\TiposSolicitudDB.vb:line 48
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.CargarComboProvincias() in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 2491
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 1650
+----------------------------------------
+Timestamp: 19-07-2016 12:08:31 Severity: Error 
+Message: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.InvalidCastException: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at TiposSolicitudDB.GetProvincias(String Proveedor, Int32 idIdioma) in C:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\App_Code\VB_Code\Components\TiposSolicitudDB.vb:line 48
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.CargarComboProvincias() in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 2491
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 1650
+----------------------------------------
+Timestamp: 19-07-2016 12:08:32 Severity: Error 
+Message: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.InvalidCastException: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at TiposSolicitudDB.GetProvincias(String Proveedor, Int32 idIdioma) in C:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\App_Code\VB_Code\Components\TiposSolicitudDB.vb:line 48
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.CargarComboProvincias() in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 2491
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 1650
+----------------------------------------
+Timestamp: 19-07-2016 12:08:32 Severity: Error 
+Message: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.InvalidCastException: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at TiposSolicitudDB.GetProvincias(String Proveedor, Int32 idIdioma) in C:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\App_Code\VB_Code\Components\TiposSolicitudDB.vb:line 48
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.CargarComboProvincias() in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 2491
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 1650
+----------------------------------------
+Timestamp: 19-07-2016 12:08:51 Severity: Error 
+Message: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.InvalidCastException: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at TiposSolicitudDB.GetProvincias(String Proveedor, Int32 idIdioma) in C:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\App_Code\VB_Code\Components\TiposSolicitudDB.vb:line 48
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.CargarComboProvincias() in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 2491
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 1650
+----------------------------------------
+Timestamp: 19-07-2016 12:11:31 Severity: Error 
+Message: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.InvalidCastException: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at TiposSolicitudDB.GetProvincias(String Proveedor, Int32 idIdioma) in C:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\App_Code\VB_Code\Components\TiposSolicitudDB.vb:line 48
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.CargarComboProvincias() in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 2491
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 1650
+----------------------------------------
+Timestamp: 19-07-2016 12:12:30 Severity: Error 
+Message: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.InvalidCastException: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at TiposSolicitudDB.GetProvincias(String Proveedor, Int32 idIdioma) in C:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\App_Code\VB_Code\Components\TiposSolicitudDB.vb:line 48
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.CargarComboProvincias() in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 2491
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 1650
+----------------------------------------
+Timestamp: 19-07-2016 12:14:36 Severity: Error 
+Message: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.InvalidCastException: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at TiposSolicitudDB.GetProvincias(String Proveedor, Int32 idIdioma) in C:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\App_Code\VB_Code\Components\TiposSolicitudDB.vb:line 48
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.CargarComboProvincias() in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 2491
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 1650
+----------------------------------------
+Timestamp: 19-07-2016 12:15:40 Severity: Error 
+Message: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.InvalidCastException: Conversion from string "select distinct nombre as NOM_PR" to type 'Double' is not valid.
+System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at TiposSolicitudDB.GetProvincias(String Proveedor, Int32 idIdioma) in C:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\App_Code\VB_Code\Components\TiposSolicitudDB.vb:line 48
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.CargarComboProvincias() in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 2491
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 1650
+----------------------------------------
+Timestamp: 04-11-2016 11:35:36 Severity: Error 
+Message: 'ddlEstado' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+System.ArgumentOutOfRangeException: 'ddlEstado' has a SelectedIndex which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   at System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.CargaComboEstadoSolicitudNueva(String cod_tipo, String cod_subtipo) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 3204
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.NuevoSubtipoSeleccionado() in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 3073
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 1714
+----------------------------------------
+Timestamp: 10-01-2017 13:08:20 Severity: Error 
+Message: Input string was not in a correct format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.get_CodPerfil() in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 70
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 1649
+----------------------------------------
+Timestamp: 10-01-2017 13:08:24 Severity: Error 
+Message: Input string was not in a correct format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.get_CodPerfil() in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 70
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 1649
+----------------------------------------
+Timestamp: 10-01-2017 13:09:05 Severity: Error 
+Message: Input string was not in a correct format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.get_CodPerfil() in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 70
+   at Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:line 1649
+----------------------------------------
+Timestamp: 11-01-2017 12:59:44 Severity: Error 
+Message: Index and length must refer to a location within the string.
+Parameter name: length
+System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at Iberdrola.SMG.UI.FrmModalAbrirSolicitudProveedor.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmModalAbrirSolicitudProveedor.aspx.cs:line 33
+----------------------------------------
+Timestamp: 10/03/2017 8:37:30 Severity: Error 
+Message: Índice fuera de los límites de la matriz.
+System.IndexOutOfRangeException: Índice fuera de los límites de la matriz.
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.CambioComboCaracteristica_SelectedIndexChanged(String ID, String selectedValue) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 1156
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 68
+----------------------------------------
+Timestamp: 10/03/2017 8:38:10 Severity: Error 
+Message: Índice fuera de los límites de la matriz.
+System.IndexOutOfRangeException: Índice fuera de los límites de la matriz.
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.CambioComboCaracteristica_SelectedIndexChanged(String ID, String selectedValue) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 1156
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 68
+----------------------------------------
+Timestamp: 10/03/2017 8:40:26 Severity: Error 
+Message: Índice fuera de los límites de la matriz.
+System.IndexOutOfRangeException: Índice fuera de los límites de la matriz.
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.CambioComboCaracteristica_SelectedIndexChanged(String ID, String selectedValue) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 1156
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 68
+----------------------------------------
+Timestamp: 16/03/2017 11:49:30 Severity: Error 
+Message: 'ddlEstado' tiene un SelectedIndex que no es válido porque no existe en la lista de elementos.
+Nombre del parámetro: value
+System.ArgumentOutOfRangeException: 'ddlEstado' tiene un SelectedIndex que no es válido porque no existe en la lista de elementos.
+Nombre del parámetro: value
+   en System.Web.UI.WebControls.ListControl.set_SelectedIndex(Int32 value)
+   en System.Web.UI.WebControls.DropDownList.set_SelectedIndex(Int32 value)
+   en System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   en System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   en System.Web.UI.WebControls.ListControl.PerformSelect()
+   en System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.CargaComboEstadoSolicitudNueva(String cod_tipo, String cod_subtipo) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 3266
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.NuevoSubtipoSeleccionado() en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 3135
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1736
+----------------------------------------
+Timestamp: 29/03/2017 7:06:13 Severity: Error 
+Message: StartIndex no puede ser inferior a cero.
+Nombre del parámetro: startIndex
+System.ArgumentOutOfRangeException: StartIndex no puede ser inferior a cero.
+Nombre del parámetro: startIndex
+   en System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   en System.String.Substring(Int32 startIndex, Int32 length)
+   en Iberdrola.SMG.UI.FrmModalAbrirSolicitudProveedor.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmModalAbrirSolicitudProveedor.aspx.cs:línea 33
+----------------------------------------
+Timestamp: 25/04/2017 9:46:05 Severity: Error 
+Message: El objeto no existe.
+System.DirectoryServices.Protocols.DirectoryOperationException: El objeto no existe.
+   en Iberdrola.Commons.Modules.Authentication.BLL.LdapHelper.IsAuthenticated(LoginDTO login) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\App_Code\CS_Code\Commons\Modules\Authentication\BLL\LdapHelper.cs:línea 93
+   en Iberdrola.SMG.UI.Login.Button1_Click(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\Login.aspx.cs:línea 474
+----------------------------------------
+Timestamp: 29/01/2019 14:22:59 Severity: Error 
+Message: Un valor de la solicitud no es válido.
+System.DirectoryServices.Protocols.DirectoryOperationException: Un valor de la solicitud no es válido.
+   en Iberdrola.Commons.Modules.Authentication.BLL.LdapHelper.IsAuthenticated(LoginDTO login) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\App_Code\CS_Code\Commons\Modules\Authentication\BLL\LdapHelper.cs:línea 93
+   en Iberdrola.SMG.UI.Login.Button1_Click(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\Login.aspx.cs:línea 443
+----------------------------------------
+Timestamp: 30/04/2019 7:10:31 Severity: Error 
+Message: No se puede resolver el nombre remoto: 'www.iberdrola.es'
+System.Net.WebException: No se puede resolver el nombre remoto: 'www.iberdrola.es'
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Commons.Modules.Authentication.BLL.ConsultaNuevasCondicionesWSService.consultaNuevasCondiciones(String usuario, String negocio, String usuarioDNI, String codIdioma) en c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\smg.web\4b091a1b\517691d4\App_WebReferences.xjotnych.2.cs:línea 125
+   en Iberdrola.Commons.Modules.Authentication.BLL.CondicionesGenerales.CargarCondiciones() en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\App_Code\CS_Code\Commons\Modules\Authentication\BLL\CondicionesGenerales.cs:línea 258
+   en Iberdrola.Commons.Modules.Authentication.BLL.CondicionesGenerales.TieneNuevasCondiciones(Boolean saltarCondiciones) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\App_Code\CS_Code\Commons\Modules\Authentication\BLL\CondicionesGenerales.cs:línea 301
+   en Iberdrola.SMG.UI.Login.Button1_Click(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\Login.aspx.cs:línea 489
+----------------------------------------
+Timestamp: 19/11/2019 15:56:39 Severity: Error 
+Message: Error en el servidor remoto: (503) Servidor no disponible.
+System.Net.WebException: Error en el servidor remoto: (503) Servidor no disponible.
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Commons.Modules.Authentication.BLL.ConsultaNuevasCondicionesWSService.consultaNuevasCondiciones(String usuario, String negocio, String usuarioDNI, String codIdioma) en c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\fdb927b1\3c5d03cd\App_WebReferences.fy8cpxib.0.cs:línea 125
+   en Iberdrola.Commons.Modules.Authentication.BLL.CondicionesGenerales.CargarCondiciones() en c:\proyectos\IBERDR13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\App_Code\CS_Code\Commons\Modules\Authentication\BLL\CondicionesGenerales.cs:línea 258
+   en Iberdrola.Commons.Modules.Authentication.BLL.CondicionesGenerales.TieneNuevasCondiciones(Boolean saltarCondiciones) en c:\proyectos\IBERDR13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\App_Code\CS_Code\Commons\Modules\Authentication\BLL\CondicionesGenerales.cs:línea 301
+   en Iberdrola.SMG.UI.Login.Button1_Click(Object sender, EventArgs e) en c:\proyectos\IBERDR13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\Login.aspx.cs:línea 454
+----------------------------------------
+Timestamp: 12/02/2020 8:32:50 Severity: Error 
+Message: El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: length
+System.ArgumentOutOfRangeException: El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: length
+   en System.String.Substring(Int32 startIndex, Int32 length)
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) en c:\proyectos\IBERDR13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 369
+----------------------------------------
+Timestamp: 12/02/2020 8:44:42 Severity: Error 
+Message: El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: length
+System.ArgumentOutOfRangeException: El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: length
+   en System.String.Substring(Int32 startIndex, Int32 length)
+   en Iberdrola.SMG.UI.FrmModalAbrirSolicitudProveedor.Page_Load(Object sender, EventArgs e) en c:\proyectos\IBERDR13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmModalAbrirSolicitudProveedor.aspx.cs:línea 30
+----------------------------------------
+Timestamp: 12/02/2020 8:46:59 Severity: Error 
+Message: El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: length
+System.ArgumentOutOfRangeException: El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: length
+   en System.String.Substring(Int32 startIndex, Int32 length)
+   en Iberdrola.SMG.UI.FrmModalAbrirSolicitudProveedor.Page_Load(Object sender, EventArgs e) en c:\proyectos\IBERDR13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmModalAbrirSolicitudProveedor.aspx.cs:línea 30
+----------------------------------------
+Timestamp: 12/02/2020 9:19:25 Severity: Error 
+Message: El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: length
+System.ArgumentOutOfRangeException: El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: length
+   en System.String.Substring(Int32 startIndex, Int32 length)
+   en Iberdrola.SMG.UI.FrmModalAbrirSolicitudProveedor.Page_Load(Object sender, EventArgs e) en c:\proyectos\IBERDR13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmModalAbrirSolicitudProveedor.aspx.cs:línea 30
+----------------------------------------
+Timestamp: 12/02/2020 9:43:32 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.UI.FrmModalAbrirSolicitudProveedor.CargaComboSubtipo() en c:\proyectos\IBERDR13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmModalAbrirSolicitudProveedor.aspx.cs:línea 64
+   en Iberdrola.SMG.UI.FrmModalAbrirSolicitudProveedor.Page_Load(Object sender, EventArgs e) en c:\proyectos\IBERDR13\smg\branches\SMG_PAGO_ANTICIPADO\web\desarrolloPortugal\SMG.Web\UI\FrmModalAbrirSolicitudProveedor.aspx.cs:línea 43
+----------------------------------------
+Timestamp: 23/03/2020 10:57:16 Severity: Error 
+Message: El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: length
+System.ArgumentOutOfRangeException: El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: length
+   en System.String.Substring(Int32 startIndex, Int32 length)
+   en Iberdrola.SMG.UI.FrmModalAbrirSolicitudProveedor.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmModalAbrirSolicitudProveedor.aspx.cs:línea 35
+----------------------------------------
+Timestamp: 23/03/2020 10:59:06 Severity: Error 
+Message: El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: length
+System.ArgumentOutOfRangeException: El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: length
+   en System.String.Substring(Int32 startIndex, Int32 length)
+   en Iberdrola.SMG.UI.FrmModalAbrirSolicitudProveedor.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmModalAbrirSolicitudProveedor.aspx.cs:línea 35
+----------------------------------------
+Timestamp: 20/05/2020 14:25:05 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.DAL.DB.DocumentoDB.ObtenerDocumentosPorIdSolicitud(Int32 idSolicitud) en c:\proyectos\IBERDR13\smg\trunk\web\desarrollo\SMG.Web\App_Code\CS_Code\SMG\DAL\DB\DocumentoOperacionesDB.cs:línea 138
+   en Iberdrola.SMG.BLL.Documento.ObtenerDocumentosPorIdSolicitud(Int32 idSolicitud) en c:\proyectos\IBERDR13\smg\trunk\web\desarrollo\SMG.Web\App_Code\CS_Code\SMG\BLL\DocumentoOperaciones.cs:línea 201
+   en Iberdrola.SMG.UI.FrmModalAltaReclamacion.CargarDocumentos() en c:\proyectos\IBERDR13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmModalAltaReclamacion.aspx.cs:línea 294
+   en Iberdrola.SMG.UI.FrmModalAltaReclamacion.Page_Load(Object sender, EventArgs e) en c:\proyectos\IBERDR13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmModalAltaReclamacion.aspx.cs:línea 79
+----------------------------------------
+Timestamp: 20/05/2020 14:28:02 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.DAL.DB.DocumentoDB.ObtenerDocumentosPorIdSolicitud(Int32 idSolicitud) en c:\proyectos\IBERDR13\smg\trunk\web\desarrollo\SMG.Web\App_Code\CS_Code\SMG\DAL\DB\DocumentoOperacionesDB.cs:línea 138
+   en Iberdrola.SMG.BLL.Documento.ObtenerDocumentosPorIdSolicitud(Int32 idSolicitud) en c:\proyectos\IBERDR13\smg\trunk\web\desarrollo\SMG.Web\App_Code\CS_Code\SMG\BLL\DocumentoOperaciones.cs:línea 201
+   en Iberdrola.SMG.UI.FrmModalAltaReclamacion.CargarDocumentos() en c:\proyectos\IBERDR13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmModalAltaReclamacion.aspx.cs:línea 294
+   en Iberdrola.SMG.UI.FrmModalAltaReclamacion.Page_Load(Object sender, EventArgs e) en c:\proyectos\IBERDR13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmModalAltaReclamacion.aspx.cs:línea 79
+----------------------------------------
+Timestamp: 21/05/2020 10:43:49 Severity: Error 
+Message: La cadena de entrada no tiene el formato correcto.
+System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.get_CodPerfil() en c:\proyectos\IBERDR13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 70
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Buscar() en c:\proyectos\IBERDR13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 2301
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) en c:\proyectos\IBERDR13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1759
+----------------------------------------
+Timestamp: 19/06/2020 09:28:50 Severity: Error 
+Message: String was not recognized as a valid Boolean.
+System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at Iberdrola.SMG.DAL.DB.VisitasDB.comprobarSiTieneQuePagarInspeccion(String Contrato) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\App_Code\CS_Code\SMG\DAL\DB\VisitasDB.cs:line 154
+   at Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:line 401
+----------------------------------------
+Timestamp: 03/07/2020 10:37:53 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.UI.FrmDetalleVisita.CargarDatosFormulario(String CodContrato, String CodVisita) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 414
+   en Iberdrola.SMG.UI.FrmDetalleVisita.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 1071
+----------------------------------------
+Timestamp: 03/07/2020 10:43:17 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.UI.FrmDetalleVisita.CargarDatosFormulario(String CodContrato, String CodVisita) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 414
+   en Iberdrola.SMG.UI.FrmDetalleVisita.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 1071
+----------------------------------------
+Timestamp: 03/07/2020 10:43:46 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.UI.FrmDetalleVisita.CargarDatosFormulario(String CodContrato, String CodVisita) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 414
+   en Iberdrola.SMG.UI.FrmDetalleVisita.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 1071
+----------------------------------------
+Timestamp: 03/07/2020 10:45:50 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.UI.FrmDetalleVisita.CargarDatosFormulario(String CodContrato, String CodVisita) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 414
+   en Iberdrola.SMG.UI.FrmDetalleVisita.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 1071
+----------------------------------------
+Timestamp: 03/07/2020 10:48:26 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.UI.FrmDetalleVisita.CargarDatosFormulario(String CodContrato, String CodVisita) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 414
+   en Iberdrola.SMG.UI.FrmDetalleVisita.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 1071
+----------------------------------------
+Timestamp: 03/07/2020 10:48:52 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.UI.FrmDetalleVisita.CargarDatosFormulario(String CodContrato, String CodVisita) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 414
+   en Iberdrola.SMG.UI.FrmDetalleVisita.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 1071
+----------------------------------------
+Timestamp: 03/07/2020 10:50:14 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.UI.FrmDetalleVisita.CargarDatosFormulario(String CodContrato, String CodVisita) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 414
+   en Iberdrola.SMG.UI.FrmDetalleVisita.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 1071
+----------------------------------------
+Timestamp: 29/09/2020 14:28:56 Severity: Error 
+Message: El valor no puede ser nulo.
+Nombre del parámetro: dataReader
+System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: dataReader
+   en System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   en System.Data.Common.LoadAdapter.FillFromReader(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   en System.Data.DataTable.Load(IDataReader reader, LoadOption loadOption, FillErrorEventHandler errorHandler)
+   en System.Data.DataTable.Load(IDataReader reader)
+   en Iberdrola.SMG.UI.FrmConsultas.CargarListadoConsultas(VistaContratoCompletoDTO ConsultaFiltro) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmConsultas.aspx.cs:línea 117
+   en Iberdrola.SMG.UI.FrmConsultas.OnRealizarConsulta_Click(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmConsultas.aspx.cs:línea 238
+----------------------------------------
+Timestamp: 29/09/2020 14:30:48 Severity: Error 
+Message: El valor no puede ser nulo.
+Nombre del parámetro: dataReader
+System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: dataReader
+   en System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   en System.Data.Common.LoadAdapter.FillFromReader(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   en System.Data.DataTable.Load(IDataReader reader, LoadOption loadOption, FillErrorEventHandler errorHandler)
+   en System.Data.DataTable.Load(IDataReader reader)
+   en Iberdrola.SMG.UI.FrmConsultas.CargarListadoConsultas(VistaContratoCompletoDTO ConsultaFiltro) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmConsultas.aspx.cs:línea 117
+   en Iberdrola.SMG.UI.FrmConsultas.OnRealizarConsulta_Click(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmConsultas.aspx.cs:línea 238
+----------------------------------------
+Timestamp: 02/10/2020 06:06:20 Severity: Error 
+Message: Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Iberdrola.SMG.BLL.ConsultasDB.VisitasConPRL(TextBox txtDesde, TextBox txtHasta) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\App_Code\CS_Code\SMG\DAL\DB\ConsultasDB.cs:line 1122
+   at Iberdrola.SMG.BLL.Consultas.VisitasConPRL(TextBox txtDesde, TextBox TxtHasta) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\App_Code\CS_Code\SMG\BLL\Consultas.cs:line 335
+   at Iberdrola.SMG.UI.FrmConsultas.CargarListadoConsultas(VistaContratoCompletoDTO ConsultaFiltro) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmConsultas.aspx.cs:line 108
+   at Iberdrola.SMG.UI.FrmConsultas.OnRealizarConsulta_Click(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmConsultas.aspx.cs:line 243
+----------------------------------------
+Timestamp: 02/10/2020 06:06:53 Severity: Error 
+Message: Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Iberdrola.SMG.BLL.ConsultasDB.VisitasConPRL(TextBox txtDesde, TextBox txtHasta) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\App_Code\CS_Code\SMG\DAL\DB\ConsultasDB.cs:line 1122
+   at Iberdrola.SMG.BLL.Consultas.VisitasConPRL(TextBox txtDesde, TextBox TxtHasta) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\App_Code\CS_Code\SMG\BLL\Consultas.cs:line 335
+   at Iberdrola.SMG.UI.FrmConsultas.CargarListadoConsultas(VistaContratoCompletoDTO ConsultaFiltro) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmConsultas.aspx.cs:line 108
+   at Iberdrola.SMG.UI.FrmConsultas.OnRealizarConsulta_Click(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmConsultas.aspx.cs:line 243
+----------------------------------------
+Timestamp: 19/10/2020 7:51:06 Severity: Error 
+Message: Intento no válido de llamar a Read cuando el lector está cerrado.
+System.InvalidOperationException: Intento no válido de llamar a Read cuando el lector está cerrado.
+   en System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   en System.Data.SqlClient.SqlDataReader.Read()
+   en Iberdrola.SMG.UI.FrmModalTicketCombustion.Page_Load(Object sender, EventArgs e) en c:\Proyectos\Iberdr13\SMG\trunk\web\desarrollo\SMG.Web\UI\FrmModalTicketCombustion.aspx.cs:línea 40
+----------------------------------------
+Timestamp: 19/10/2020 7:57:45 Severity: Error 
+Message: Intento no válido de llamar a FieldCount cuando el lector está cerrado.
+System.InvalidOperationException: Intento no válido de llamar a FieldCount cuando el lector está cerrado.
+   en System.Data.SqlClient.SqlDataReader.get_FieldCount()
+   en System.Data.Common.DbEnumerator.BuildSchemaInfo()
+   en System.Data.Common.DbEnumerator.MoveNext()
+   en System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   en System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   en System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   en System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   en System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   en System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   en System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   en System.Web.UI.WebControls.GridView.DataBind()
+   en Iberdrola.SMG.UI.FrmModalTicketCombustion.Page_Load(Object sender, EventArgs e) en c:\Proyectos\Iberdr13\SMG\trunk\web\desarrollo\SMG.Web\UI\FrmModalTicketCombustion.aspx.cs:línea 43
+----------------------------------------
+Timestamp: 19/10/2020 8:16:14 Severity: Error 
+Message: Intento no válido de llamar a Read cuando el lector está cerrado.
+System.InvalidOperationException: Intento no válido de llamar a Read cuando el lector está cerrado.
+   en System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   en System.Data.SqlClient.SqlDataReader.Read()
+   en Iberdrola.SMG.UI.FrmModalTicketCombustion.Page_Load(Object sender, EventArgs e) en c:\Proyectos\Iberdr13\SMG\trunk\web\desarrollo\SMG.Web\UI\FrmModalTicketCombustion.aspx.cs:línea 40
+----------------------------------------
+Timestamp: 10/11/2020 09:05:51 Severity: Error 
+Message: Index and length must refer to a location within the string.
+Parameter name: length
+System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:line 369
+----------------------------------------
+Timestamp: 10/11/2020 09:17:32 Severity: Error 
+Message: Index and length must refer to a location within the string.
+Parameter name: length
+System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:line 369
+----------------------------------------
+Timestamp: 10/11/2020 09:20:14 Severity: Error 
+Message: Index and length must refer to a location within the string.
+Parameter name: length
+System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:line 369
+----------------------------------------
+Timestamp: 10/11/2020 09:22:09 Severity: Error 
+Message: Index and length must refer to a location within the string.
+Parameter name: length
+System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:line 369
+----------------------------------------
+Timestamp: 10/11/2020 09:24:50 Severity: Error 
+Message: Index and length must refer to a location within the string.
+Parameter name: length
+System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:line 369
+----------------------------------------
+Timestamp: 10/11/2020 09:25:50 Severity: Error 
+Message: Index and length must refer to a location within the string.
+Parameter name: length
+System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:line 369
+----------------------------------------
+Timestamp: 10/11/2020 09:30:32 Severity: Error 
+Message: Index and length must refer to a location within the string.
+Parameter name: length
+System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:line 369
+----------------------------------------
+Timestamp: 10/11/2020 09:38:13 Severity: Error 
+Message: Index and length must refer to a location within the string.
+Parameter name: length
+System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:line 369
+----------------------------------------
+Timestamp: 10/11/2020 10:24:53 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.UI.FrmDetalleVisita.CargarDatosFormulario(String CodContrato, String CodVisita) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 424
+   en Iberdrola.SMG.UI.FrmDetalleVisita.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 1081
+----------------------------------------
+Timestamp: 10/11/2020 10:25:04 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.UI.FrmDetalleVisita.CargarDatosFormulario(String CodContrato, String CodVisita) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 424
+   en Iberdrola.SMG.UI.FrmDetalleVisita.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 1081
+----------------------------------------
+Timestamp: 10/11/2020 11:02:11 Severity: Error 
+Message: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+System.ArgumentOutOfRangeException: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+   en System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en Iberdrola.SMG.UI.FrmModalTicketCombustion.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmModalTicketCombustion.aspx.cs:línea 62
+----------------------------------------
+Timestamp: 11/11/2020 7:55:12 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.UI.FrmDetalleVisita.MarcarControlesObligatorios() en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 950
+   en Iberdrola.SMG.UI.FrmDetalleVisita.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 1095
+----------------------------------------
+Timestamp: 11/11/2020 8:24:04 Severity: Error 
+Message: Referencia a objeto no establecida como instancia de un objeto.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Iberdrola.SMG.UI.FrmDetalleVisita.MarcarControlesObligatorios() en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 950
+   en Iberdrola.SMG.UI.FrmDetalleVisita.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 1095
+----------------------------------------
+Timestamp: 11/11/2020 8:27:58 Severity: Error 
+Message: Error en el nivel del transporte al recibir los resultados del servidor. (provider: TCP Provider, error: 0 - Se agotó el tiempo de espera del semáforo.)
+System.Data.SqlClient.SqlException: Error en el nivel del transporte al recibir los resultados del servidor. (provider: TCP Provider, error: 0 - Se agotó el tiempo de espera del semáforo.)
+System.ComponentModel.Win32Exception: Se agotó el tiempo de espera del semáforo
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   en System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   en System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   en System.Data.SqlClient.TdsParserStateObject.TryReadByteArray(Byte[] buff, Int32 offset, Int32 len, Int32& totalRead)
+   en System.Data.SqlClient.TdsParserStateObject.TryReadString(Int32 length, String& value)
+   en System.Data.SqlClient.TdsParser.TryReadSqlStringValue(SqlBuffer value, Byte type, Int32 length, Encoding encoding, Boolean isPlp, TdsParserStateObject stateObj)
+   en System.Data.SqlClient.TdsParser.TryReadSqlValue(SqlBuffer value, SqlMetaDataPriv md, Int32 length, TdsParserStateObject stateObj, SqlCommandColumnEncryptionSetting columnEncryptionOverride, String columnName)
+   en System.Data.SqlClient.SqlDataReader.TryReadColumnInternal(Int32 i, Boolean readHeaderOnly)
+   en System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   en System.Data.SqlClient.SqlDataReader.GetValues(Object[] values)
+   en System.Data.Common.DbEnumerator.MoveNext()
+   en System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   en System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   en System.Web.UI.WebControls.ListControl.PerformSelect()
+   en System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   en Iberdrola.SMG.UI.FrmDetalleVisita.CargarCombos() en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 64
+   en Iberdrola.SMG.UI.FrmDetalleVisita.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmDetalleVisita.aspx.cs:línea 1079
+----------------------------------------
+Timestamp: 10/12/2020 12:16:36 Severity: Error 
+Message: Could not find file 'C:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\XLS\Iberdrola.SMG.DAL.DTO.PCamposPdfContratoGasConfortDTO'.
+System.IO.FileNotFoundException: Could not find file 'C:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\XLS\Iberdrola.SMG.DAL.DTO.PCamposPdfContratoGasConfortDTO'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Web.HttpResponse.TransmitFile(String filename, Int64 offset, Int64 length)
+   at System.Web.HttpResponse.TransmitFile(String filename)
+   at Iberdrola.SMG.UI.frmModalModificarSolicitud.OnbtnGenerarContratoGasConfort_Click(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:line 3509
+----------------------------------------
+Timestamp: 10/12/2020 12:17:52 Severity: Error 
+Message: Could not find file 'C:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\XLS\Iberdrola.SMG.DAL.DTO.PCamposPdfContratoGasConfortDTO'.
+System.IO.FileNotFoundException: Could not find file 'C:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\XLS\Iberdrola.SMG.DAL.DTO.PCamposPdfContratoGasConfortDTO'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Web.HttpResponse.TransmitFile(String filename, Int64 offset, Int64 length)
+   at System.Web.HttpResponse.TransmitFile(String filename)
+   at Iberdrola.SMG.UI.frmModalModificarSolicitud.OnbtnGenerarContratoGasConfort_Click(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:line 3509
+----------------------------------------
+Timestamp: 10/12/2020 12:19:15 Severity: Error 
+Message: Could not find file 'C:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\XLS\Iberdrola.SMG.DAL.DTO.PCamposPdfContratoGasConfortDTO'.
+System.IO.FileNotFoundException: Could not find file 'C:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\XLS\Iberdrola.SMG.DAL.DTO.PCamposPdfContratoGasConfortDTO'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Web.HttpResponse.TransmitFile(String filename, Int64 offset, Int64 length)
+   at System.Web.HttpResponse.TransmitFile(String filename)
+   at Iberdrola.SMG.UI.frmModalModificarSolicitud.OnbtnGenerarContratoGasConfort_Click(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:line 3509
+----------------------------------------
+Timestamp: 10/12/2020 12:22:11 Severity: Error 
+Message: Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Iberdrola.SMG.UI.frmModalModificarSolicitud.OnbtnGenerarContratoGasConfort_Click(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:line 3511
+----------------------------------------
+Timestamp: 10/12/2020 12:28:07 Severity: Error 
+Message: Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Iberdrola.SMG.UI.frmModalModificarSolicitud.OnbtnGenerarContratoGasConfort_Click(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:line 3511
+----------------------------------------
+Timestamp: 10/12/2020 12:37:47 Severity: Error 
+Message: Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Iberdrola.SMG.UI.frmModalModificarSolicitud.OnbtnGenerarContratoGasConfort_Click(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:line 3513
+----------------------------------------
+Timestamp: 10/12/2020 12:52:32 Severity: Verbose 
+Message: DescargarArchivo - Inicio Descarga
+----------------------------------------
+Timestamp: 10/12/2020 12:52:41 Severity: Verbose 
+Message: DescargarArchivo - READ OK
+----------------------------------------
+Timestamp: 10/12/2020 12:52:45 Severity: Verbose 
+Message: DescargarArchivo - OK
+----------------------------------------
+Timestamp: 10/12/2020 12:53:14 Severity: Error 
+Message: Server cannot set content type after HTTP headers have been sent.
+System.Web.HttpException: Server cannot set content type after HTTP headers have been sent.
+   at System.Web.HttpResponse.set_ContentType(String value)
+   at Iberdrola.SMG.UI.frmModalModificarSolicitud.OnbtnGenerarContratoGasConfort_Click(Object sender, EventArgs e) in c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:line 3510
+----------------------------------------
+Timestamp: 10/12/2020 12:58:36 Severity: Verbose 
+Message: DescargarArchivo - Inicio Descarga
+----------------------------------------
+Timestamp: 10/12/2020 12:58:36 Severity: Verbose 
+Message: DescargarArchivo - READ OK
+----------------------------------------
+Timestamp: 10/12/2020 12:58:36 Severity: Verbose 
+Message: DescargarArchivo - OK
+----------------------------------------
+Timestamp: 10/12/2020 13:00:55 Severity: Verbose 
+Message: DescargarArchivo - Inicio Descarga
+----------------------------------------
+Timestamp: 10/12/2020 13:00:55 Severity: Verbose 
+Message: DescargarArchivo - READ OK
+----------------------------------------
+Timestamp: 10/12/2020 13:00:55 Severity: Verbose 
+Message: DescargarArchivo - OK
+----------------------------------------
+Timestamp: 10/12/2020 13:03:03 Severity: Verbose 
+Message: DescargarArchivo - Inicio Descarga
+----------------------------------------
+Timestamp: 10/12/2020 13:03:03 Severity: Verbose 
+Message: DescargarArchivo - READ OK
+----------------------------------------
+Timestamp: 10/12/2020 13:03:03 Severity: Verbose 
+Message: DescargarArchivo - OK
+----------------------------------------
+Timestamp: 10/12/2020 13:08:36 Severity: Verbose 
+Message: DescargarArchivo - Inicio Descarga
+----------------------------------------
+Timestamp: 10/12/2020 13:08:36 Severity: Verbose 
+Message: DescargarArchivo - READ OK
+----------------------------------------
+Timestamp: 10/12/2020 13:08:36 Severity: Verbose 
+Message: DescargarArchivo - OK
+----------------------------------------
+Timestamp: 10/12/2020 13:12:46 Severity: Verbose 
+Message: DescargarArchivo - Inicio Descarga
+----------------------------------------
+Timestamp: 10/12/2020 13:12:46 Severity: Verbose 
+Message: DescargarArchivo - READ OK
+----------------------------------------
+Timestamp: 10/12/2020 13:12:46 Severity: Verbose 
+Message: DescargarArchivo - OK
+----------------------------------------
+Timestamp: 10/12/2020 13:18:37 Severity: Verbose 
+Message: DescargarArchivo - Inicio Descarga
+----------------------------------------
+Timestamp: 10/12/2020 13:18:37 Severity: Verbose 
+Message: DescargarArchivo - READ OK
+----------------------------------------
+Timestamp: 10/12/2020 13:18:37 Severity: Verbose 
+Message: DescargarArchivo - OK
+----------------------------------------
+Timestamp: 10/12/2020 13:20:37 Severity: Verbose 
+Message: DescargarArchivo - Inicio Descarga
+----------------------------------------
+Timestamp: 10/12/2020 13:20:37 Severity: Verbose 
+Message: DescargarArchivo - READ OK
+----------------------------------------
+Timestamp: 10/12/2020 13:20:38 Severity: Verbose 
+Message: DescargarArchivo - OK
+----------------------------------------
+Timestamp: 29/01/2021 10:14:50 Severity: Error 
+Message: ORA-00900: sentencia SQL no válida
+Oracle.ManagedDataAccess.Client.OracleException: ORA-00900: sentencia SQL no válida
+   en OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   en OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   en Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   en Oracle.ManagedDataAccess.Client.OracleDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.OtenerCampania(String codContrato) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 536
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 424
+----------------------------------------
+Timestamp: 29/01/2021 10:20:10 Severity: Error 
+Message: ORA-00900: sentencia SQL no válida
+Oracle.ManagedDataAccess.Client.OracleException: ORA-00900: sentencia SQL no válida
+   en OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   en OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   en Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   en Oracle.ManagedDataAccess.Client.OracleDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.OtenerCampania(String codContrato) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 537
+----------------------------------------
+Timestamp: 03/02/2021 10:37:41 Severity: Error 
+Message: No se puede encontrar la tabla 0.
+System.IndexOutOfRangeException: No se puede encontrar la tabla 0.
+   en System.Data.DataTableCollection.get_Item(Int32 index)
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 416
+----------------------------------------
+Timestamp: 03/02/2021 10:44:53 Severity: Error 
+Message: No se puede encontrar la tabla 0.
+System.IndexOutOfRangeException: No se puede encontrar la tabla 0.
+   en System.Data.DataTableCollection.get_Item(Int32 index)
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 416
+----------------------------------------
+Timestamp: 05/02/2021 10:20:21 Severity: Error 
+Message: No hay ninguna fila en la posición 0.
+System.IndexOutOfRangeException: No hay ninguna fila en la posición 0.
+   en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 416
+----------------------------------------
+Timestamp: 27/05/2021 11:38:18 Severity: Error 
+Message: Subproceso anulado.
+System.Threading.ThreadAbortException: Subproceso anulado.
+   en System.Threading.Thread.AbortInternal()
+   en System.Threading.Thread.Abort(Object stateInfo)
+   en System.Web.HttpResponse.AbortCurrentThread()
+   en System.Web.HttpResponse.End()
+   en Iberdrola.SMG.UI.FrmGestionDocumental.AbrirBase64EnVuelo(String base64Result, String nombreFichero) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmGestionDocumental.aspx.cs:línea 284
+   en Iberdrola.SMG.UI.FrmGestionDocumental.ConsultarDocumentoEnDelta(String nombreDocumento) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmGestionDocumental.aspx.cs:línea 240
+----------------------------------------
+Timestamp: 27/05/2021 11:38:30 Severity: Error 
+Message: Subproceso anulado.
+System.Threading.ThreadAbortException: Subproceso anulado.
+   en Iberdrola.SMG.UI.FrmGestionDocumental.ConsultarDocumentoEnDelta(String nombreDocumento) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmGestionDocumental.aspx.cs:línea 265
+   en Iberdrola.SMG.UI.FrmGestionDocumental.OnGrdListado_RowCommand(Object sender, GridViewCommandEventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmGestionDocumental.aspx.cs:línea 184
+----------------------------------------
+Timestamp: 27/05/2021 11:40:51 Severity: Error 
+Message: Subproceso anulado.
+System.Threading.ThreadAbortException: Subproceso anulado.
+   en System.Threading.Thread.AbortInternal()
+   en System.Threading.Thread.Abort(Object stateInfo)
+   en System.Web.HttpResponse.AbortCurrentThread()
+   en System.Web.HttpResponse.End()
+   en Iberdrola.SMG.UI.FrmGestionDocumental.AbrirBase64EnVuelo(String base64Result, String nombreFichero) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmGestionDocumental.aspx.cs:línea 284
+   en Iberdrola.SMG.UI.FrmGestionDocumental.ConsultarDocumentoEnDelta(String nombreDocumento) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmGestionDocumental.aspx.cs:línea 240
+----------------------------------------
+Timestamp: 27/05/2021 11:41:03 Severity: Error 
+Message: Subproceso anulado.
+System.Threading.ThreadAbortException: Subproceso anulado.
+   en Iberdrola.SMG.UI.FrmGestionDocumental.ConsultarDocumentoEnDelta(String nombreDocumento) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmGestionDocumental.aspx.cs:línea 265
+   en Iberdrola.SMG.UI.FrmGestionDocumental.OnGrdListado_RowCommand(Object sender, GridViewCommandEventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmGestionDocumental.aspx.cs:línea 184
+----------------------------------------
+Timestamp: 30/12/2021 10:47:07 Severity: Error 
+Message: La cadena de entrada no tiene el formato correcto.
+System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.get_CodPerfil() en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 70
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1804
+----------------------------------------
+Timestamp: 30/12/2021 10:47:32 Severity: Error 
+Message: La cadena de entrada no tiene el formato correcto.
+System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.get_CodPerfil() en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 70
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1804
+----------------------------------------
+Timestamp: 30/12/2021 10:48:18 Severity: Error 
+Message: La cadena de entrada no tiene el formato correcto.
+System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.get_CodPerfil() en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 70
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1804
+----------------------------------------
+Timestamp: 30/12/2021 10:50:10 Severity: Error 
+Message: La cadena de entrada no tiene el formato correcto.
+System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.get_CodPerfil() en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 70
+   en Iberdrola.SMG.UI.FrmSolicitudesCalderas.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\FrmSolicitudesCalderas.aspx.cs:línea 1804
+----------------------------------------
+Timestamp: 27/01/2022 14:48:02 Severity: Error 
+Message: El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: length
+System.ArgumentOutOfRangeException: El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: length
+   en System.String.Substring(Int32 startIndex, Int32 length)
+   en Iberdrola.SMG.UI.frmModalModificarSolicitud.Page_Load(Object sender, EventArgs e) en c:\Proyectos\IBERDROLA13\smg\trunk\web\desarrollo\SMG.Web\UI\frmModalModificarSolicitud.aspx.cs:línea 605
+----------------------------------------

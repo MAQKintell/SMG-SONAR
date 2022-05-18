@@ -1,0 +1,195 @@
+﻿.divTituloVentana
+{
+    font-size:0.9em;
+    font-family:Trebuchet MS;
+	/*color:#262626;*/
+	font-weight:bold;
+    color:#34721f;
+    text-transform:uppercase;
+}
+#divListado
+{
+    position:absolute; 
+    top: 545px; 
+    left: 915px;
+}
+#divCmbMarcaCaldera
+{
+    position:absolute;
+    /*top:25px;*/
+    top:24px;
+    left:408px;
+}
+#divTxtMarcaCaldera
+{
+    position:absolute;
+    /*top:25px;*/
+    top:24px;
+    left:409px;
+    z-index:10001;
+}
+#divFrameTxtMarcaCaldera
+{
+    position:absolute;
+    /*top:25px;*/
+    top:24px;
+    left:409px;
+    z-index:9999;
+}
+
+#divBotonAceptarContratos
+{
+    position:absolute; 
+    top: 555px; 
+    left: 445px;
+    height: 20px;
+}
+#divBotonVolverContratos
+{
+    position:absolute; 
+    top: 555px; 
+    left: 803px;
+    height: 20px;
+}
+#divBotonAceptar
+{
+    position:absolute; 
+    top: 544px; 
+    left: 416px;
+    height: 20px;
+}
+#divBotonVolver
+{
+    position:absolute; 
+    top: 545px; 
+    left: 836px;
+    height: 20px;
+}
+.labelFormulario
+{
+    font-family:Trebuchet MS;
+	text-decoration:none;
+	color:#262626;
+    font-size:11px;
+}
+.labelFormularioValor
+{
+    font-family:Trebuchet MS;
+	text-decoration:none;
+	color:#262626;
+    font-size:11px;
+    font-weight:bold;
+}
+
+.campoFormulario
+{
+    font-family:Trebuchet MS;
+	color:#262626;
+	text-decoration:none;
+	font-size: 11px;
+}
+
+.campoFormularioNumerico
+{
+    font-family:Trebuchet MS;
+	color:#262626;
+	text-decoration:none;
+	font-size: 11px;
+	text-align:right;
+}
+
+.campoFormularioFecha
+{
+    font-family:Trebuchet MS;
+	color:#262626;
+	text-decoration:none;
+	font-size: 11px;
+	width: 60px;
+}
+
+.campoFormularioObligatorio
+{
+    font-family:Trebuchet MS;
+	color:#262626;
+	text-decoration:none;
+	font-size: 11px;
+	background-color:#c0f0c0;
+}
+
+.campoFormularioFechaObligatorio
+{
+    font-family:Trebuchet MS;
+	color:#262626;
+	text-decoration:none;
+	font-size: 11px;
+	background-color:#c0f0c0;
+	width:60px;
+
+}
+
+
+.campoFormulario input
+{
+    border:none;
+}
+
+.botonFormulario
+{
+    font-family:Trebuchet MS;
+    background-color:#34721f;
+    border:1px solid #262626; 
+    color:white;    
+    font-size:11px;
+    height:20px;
+    font-weight:bold;
+    cursor: pointer;
+	width: 116px;
+}
+
+.linkFormulario
+{
+    font-family:Trebuchet MS;
+    color:#262626;    
+    font-size:11px;
+    cursor: pointer;
+}
+
+.linkFormulario.a:hover
+{
+    color:#66ab05;    
+}
+
+input
+{
+    font-family:Trebuchet MS;
+    color:#262626;
+    font-size: 11px;
+    border:1px solid #262626; 
+}
+select
+{
+    font-family:Trebuchet MS;
+    color:#262626;
+    font-size: 11px;
+    border:1px solid #262626;
+}
+
+.errorFormulario
+{
+    font-family:Trebuchet MS;
+	color:#ff0000;
+	text-decoration:none;
+	font-size: 15px;
+	cursor:help;
+}
+
+.mensajeError
+{
+    font-family:Trebuchet MS;
+	color:#ff0000;
+	text-decoration:none;
+	font-size: 11px;
+}
+
+
+
