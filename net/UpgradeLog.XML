@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
-<Properties><Property Name="Solution" Value="SMG">
-</Property><Property Name="Archivo de la solución" Value="C:\Proyectos\IBERDROLA13\SVN_IBERDROLA\SMG\trunk\SMG.sln">
-</Property><Property Name="Date" Value="viernes, 28 de abril de 2017">
-</Property><Property Name="Time" Value="14:18">
-</Property></Properties><Event ErrorLevel="0" Project="" Source="SMG.sln" Description="La copia C:\Proyectos\IBERDROLA13\SVN_IBERDROLA\SMG\trunk\Backup\SMG.sln del archivo se ha realizado correctamente">
-</Event><Event ErrorLevel="0" Project="" Source="SMG.sln" Description="La solución se convirtió correctamente">
-</Event><Event ErrorLevel="3" Project="" Source="SMG.sln" Description="Converted">
-</Event></UpgradeLog>

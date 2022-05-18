@@ -1,3 +1,0 @@
-07/05/2009 14:18:21 ==> btn_exportar_Click()
-07/05/2009 14:18:21 ==> Llamada a ExportarExcel
-07/05/2009 14:18:21 ==> Subproceso anulado.
